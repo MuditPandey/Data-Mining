@@ -4,8 +4,8 @@
 #define N 435
 #define MIN_SUP 0.45
 #define MIN_CONF 0.7
-#define CHILD 3
-#define CAPACITY 3
+#define CHILD 30
+#define CAPACITY 30
 
 using namespace std;
 /* 34 ITEMS
@@ -56,7 +56,7 @@ int find_hashval(int );
 void Print(node *, int tabs=0);
 node generate_hashtree(vector< set<int> > );
 bool check_exist(set<int> ,set<int> );
-void reset(node root);
+void reset(node* root);
 void update_support(map< set<int>,int > *,node *root, set<int> transaction,set<int> check_set, int k, int level = 0);
 
 vector< map< set<int>,int > > freq_item;
@@ -92,34 +92,54 @@ void gen_freq_itemset()
   //Get all frequent 1 item-set
   map< set<int>,int> frequent_one=get_1_freq();
   freq_item.push_back(frequent_one);
-  k++;
+  while(1)
+  {
+      k++;
 //Print  freq 1 item sets with their support count and support
 
- for(map< set<int>,int>::iterator it=freq_item[0].begin();it!=freq_item[0].end();it++)
- {
-     for(set<int>::iterator it2=it->first.begin();it2!=it->first.end();it2++)
-        cout<<*it2;
-     cout<<" "<<it->second<<" Support="<<(float)it->second/435<<endl;
- }
+     /*for(map< set<int>,int>::iterator it=freq_item[0].begin();it!=freq_item[0].end();it++)
+     {
+         for(set<int>::iterator it2=it->first.begin();it2!=it->first.end();it2++)
+            cout<<*it2;
+         cout<<" "<<it->second<<" Support="<<(float)it->second/N<<endl;
+     }*/
 
- //Generates a map of all candidate k item-sets from k-1 item set
- map< set<int>,int> Ck=apriori_gen(get_vector(freq_item[k-1]));
- node root=generate_hashtree(get_vector(Ck));
- Print(&root);
- for(int i=434;i<transactions.size();i++)
- {
-     reset(root);
-     update_support(&Ck,&root,transactions[i],transactions[i],k+1,0);
- }
+     //Generates a map of all candidate k item-sets from k-1 item set
+     map< set<int>,int> Ck=apriori_gen(get_vector(freq_item[k-1]));
+     for(map< set<int>,int>::iterator it=Ck.begin();it!=Ck.end();it++)
+     {
+         for(set<int>::iterator it2=it->first.begin();it2!=it->first.end();it2++)
+            cout<<*it2<<" ";
+         cout<<" "<<it->second<<endl;
+     }
+     node root=generate_hashtree(get_vector(Ck));
+     Print(&root);
+     for(int i=0;i<transactions.size();i++)
+     {
+         cout<<i<<"th transaction"<<endl;
+         reset(&root);
+         update_support(&Ck,&root,transactions[i],transactions[i],k+1,0);
+     }
+      map< set<int>,int> add;
+      for(map< set<int>,int>::iterator it=Ck.begin();it!=Ck.end();it++)
+     {
+         if((float)it->second/N>=MIN_SUP)
+         {
+            add.insert(pair< set<int>,int >(it->first,it->second));
+         }
 
- //Prints the candidate k item-set map
- for(map< set<int>,int>::iterator it=Ck.begin();it!=Ck.end();it++)
- {
-     for(set<int>::iterator it2=it->first.begin();it2!=it->first.end();it2++)
-        cout<<*it2<<" ";
-     cout<<" "<<it->second<<endl;
- }
-
+     }
+     freq_item.push_back(add);
+     //Prints the candidate k item-set map
+     for(map< set<int>,int>::iterator it=freq_item[k].begin();it!=freq_item[k].end();it++)
+     {
+         for(set<int>::iterator it2=it->first.begin();it2!=it->first.end();it2++)
+            cout<<*it2<<" ";
+         cout<<" "<<it->second<<endl;
+     }
+     if(Ck.empty())
+        break;
+  }
 }
 
 /*
@@ -308,10 +328,10 @@ node generate_hashtree(vector< set<int> > Ck)
 }
 bool check_exist(set<int> a,set<int> b)
 {
-    cout<<"Checking set=";
+    /*cout<<"Checking set=";
     for(set<int>::iterator pl=a.begin();pl!=a.end();pl++)
                     cout<<*pl<<" ";
-                cout<<"with transaction"<<endl;
+                cout<<"with transaction"<<endl;*/
     set<int>::iterator it=a.begin();
     set<int>::iterator it2=b.find(*it);
     if(it2==b.end())
@@ -330,11 +350,11 @@ bool check_exist(set<int> a,set<int> b)
     return false;
 }
 
-void reset(node root)
+void reset(node* root)
 {
-    root.visited = false;
-    for (int i = 0; i < root.children.size(); ++i)
-        reset(root.children[i]);
+    root->visited = false;
+    for (int i = 0; i < root->children.size(); ++i)
+        reset(&root->children[i]);
 }
 
 void update_support(map< set<int>,int > *Ck,node *root, set<int> transaction,set<int> check_set, int k, int level)
@@ -349,11 +369,11 @@ void update_support(map< set<int>,int > *Ck,node *root, set<int> transaction,set
             if(check_exist(root->data[i],transaction))
             {
                 Ck->find(root->data[i])->second++;
-                cout<<"+1 supp count for itemset=";
+                //cout<<"+1 supp count for itemset=";
                 //For Debugging
-                for(set<int>::iterator pl=root->data[i].begin();pl!=root->data[i].end();pl++)
+                /*for(set<int>::iterator pl=root->data[i].begin();pl!=root->data[i].end();pl++)
                     cout<<*pl<<" ";
-                cout<<endl;
+                cout<<endl;*/
             }
         }
         return;
@@ -367,11 +387,11 @@ void update_support(map< set<int>,int > *Ck,node *root, set<int> transaction,set
         set<int> new_check(check_set);
         new_check.erase(new_check.begin(),++new_check.find(*it1));
         //For Debugging
-        cout<<"Hashing on="<<*it1<<endl;
+        /*cout<<"Hashing on="<<*it1<<endl;
         cout<<"Level="<<level<<" k="<<k<<" New set=";
         for(set<int>::iterator pl=new_check.begin();pl!=new_check.end();pl++)
                     cout<<*pl<<" ";
-                cout<<endl;
+                cout<<endl;*/
 
         update_support(Ck,&root->children[find_hashval(*it1)],transaction,new_check,k-1,level+1);
     }
