@@ -475,7 +475,7 @@ void ap_genrules(set <int> fk,vector <set <int> > Hm)
     int k = fk.size();
     int m = Hm[0].size();
     cout<<"K="<<k<<" M="<<m<<endl;
-    if (k > m + 1)
+    if (k >= m + 1)
     {
         map< set<int>,int > Hm1 = apriori_gen(Hm);
         for(map< set<int>,int>::iterator it=Hm1.begin();it!=Hm1.end();it++)
