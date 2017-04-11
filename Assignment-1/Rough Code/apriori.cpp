@@ -52,23 +52,31 @@ struct node
     bool visited;
     vector<node> children;
 };
+//GLOBAL VARIABLES
+vector< map< set<int>,int > > freq_item;
+map<int,int> one_item_set;
+vector< set<int> > transactions;
+map< pair< set<int>, set<int> >, double> rules;
+//HASH TREE RELATED
 int find_hashval(int );
 void Print(node *, int tabs=0);
 node generate_hashtree(vector< set<int> > );
 bool check_exist(set<int> ,set<int> );
 void reset(node* root);
 void update_support(map< set<int>,int > *,node *root, set<int> transaction,set<int> check_set, int k, int level = 0);
-
-vector< map< set<int>,int > > freq_item;
-map<int,int> one_item_set;
+//FREQUENT ITEM SET RELATED
 void load_training_data(char*);
-vector< set<int> > transactions;
 map< set<int>,int > apriori_gen(vector< set<int> >);
 bool sim_fk_2(set<int>,set<int>);
 vector< set<int> > get_vector(map< set<int>,int> a);
 void gen_freq_itemset();
 map< set<int>,int> get_1_freq();
-
+//RULE GENERATION RELATED
+set<int> setdiff(set <int>, set <int>) ;
+vector < set <int> > conv_set_to_vector_set(set <int> );
+int find_suppcount(set <int> );
+void ap_genrules(set <int> , vector <set <int> > );
+void rulegen();
 
 
 int main()
@@ -81,6 +89,7 @@ int main()
  load_training_data(file);
  cout<<"done\n";
  cout<<"Transactions="<<transactions.size()<<endl;
+ //Frequent Item-set Generation
  gen_freq_itemset();
  for(int i=0;i<freq_item.size();i++)
  {
@@ -92,6 +101,8 @@ int main()
          cout<<"Support="<<(float)it->second/N<<endl;
      }
  }
+ //Rule Generation
+ rulegen();
 
  return 0;
 }
@@ -225,7 +236,7 @@ map< set<int>,int> apriori_gen(vector< set<int> > fk)
     map< set<int> ,int> candidate;
     for(int i=0;i<fk.size()-1;i++)
     {
-        for(int j=i+1;i<fk.size();j++)
+        for(int j=i+1;j<fk.size();j++)
         {
           if(sim_fk_2(fk[i],fk[j]))
           {
@@ -271,12 +282,16 @@ vector< set<int> > get_vector(map< set<int>,int> a)
     }
     return return_vec;
 }
-
+/*
+Computes Hash value for a node
+*/
 int find_hashval(int var)
 {
     return (var - 1) % CHILD;
 }
-
+/*
+Function that prints the entire Hash tree
+*/
 void Print(node *X, int tabs)
 {
     if (!X->children.empty())
@@ -297,7 +312,9 @@ void Print(node *X, int tabs)
     }
     cout << "**" << endl;
 }
-
+/*
+Function that generates a hash tree from the given candidate sets
+*/
 node generate_hashtree(vector< set<int> > Ck)
 {
     node root, *curr;
@@ -337,6 +354,9 @@ node generate_hashtree(vector< set<int> > Ck)
     curr = &root;
     return root;
 }
+/*
+Utility function that checks whether a set is a subset of the other
+*/
 bool check_exist(set<int> a,set<int> b)
 {
     /*cout<<"Checking set=";
@@ -360,14 +380,18 @@ bool check_exist(set<int> a,set<int> b)
         return true;
     return false;
 }
-
+/*
+Function that resets visited node
+*/
 void reset(node* root)
 {
     root->visited = false;
     for (int i = 0; i < root->children.size(); ++i)
         reset(&root->children[i]);
 }
-
+/*
+Function that traverses hash-tree for each transaction and updates support count
+*/
 void update_support(map< set<int>,int > *Ck,node *root, set<int> transaction,set<int> check_set, int k, int level)
 {
     if(k<0)
@@ -408,4 +432,120 @@ void update_support(map< set<int>,int > *Ck,node *root, set<int> transaction,set
         update_support(Ck,&root->children[find_hashval(*it1)],transaction,new_check,k-1,level+1);
     }
     //cout<<"xxxxxxxxx"<<endl;
+}
+/*
+Rule generation driver function
+*/
+void rulegen()
+{
+    //For each item-set with k>=2
+    for (int k = 1; k < freq_item.size(); ++k)
+    {
+        //Traverse map of k-th item-set
+        for (map< set<int>, int >::iterator it2 = freq_item[k].begin(); it2 != freq_item[k].end(); ++it2)
+        {
+           cout<<"ITEMSET=";
+           vector< set<int> > one_item_consequent;
+           //Get each set in k-th item set
+           for (set<int>::iterator it = (it2->first).begin(); it != (it2->first).end(); ++it)
+            {
+                cout<<*it<<" ";
+                set<int> add;
+                add.insert(*it);
+                one_item_consequent.push_back(add);
+            }
+            cout<<"\n1 consequents=";
+            for(int i=0;i<one_item_consequent.size();i++)
+            {
+                for(set<int>::iterator it3=one_item_consequent[i].begin();it3!=one_item_consequent[i].end();it3++)
+                {
+                    cout<<*it3<<",";
+                }
+            }
+            cout<<endl;
+            ap_genrules(it2->first,one_item_consequent);
+        }
+    }
+}
+/*
+Recursive function that generates all rules
+*/
+void ap_genrules(set <int> fk,vector <set <int> > Hm)
+{
+    int k = fk.size();
+    int m = Hm[0].size();
+    cout<<"K="<<k<<" M="<<m<<endl;
+    if (k > m + 1)
+    {
+        map< set<int>,int > Hm1 = apriori_gen(Hm);
+        for(map< set<int>,int>::iterator it=Hm1.begin();it!=Hm1.end();it++)
+        {
+         for(set<int>::iterator it2=it->first.begin();it2!=it->first.end();it2++)
+            cout<<*it2<<" ";
+         cout<<" "<<it->second<<endl;
+        }
+       /* for (map< set<int>,int >::iterator it = Hm1.begin(); it != Hm1.end(); ++it)
+        {
+            set <int> cause = setdiff(fk, it->first);
+            int ofk=0;
+            if(freq_item[k-1].find(fk)!=freq_item[k-1].end())
+               ofk=freq_item[k-1].find(fk)->second;
+            double conf = (double)ofk/ find_suppcount(cause);
+            if (conf >= MIN_CONF)
+            {
+                pair< set <int>, set <int> > rule;
+                rule.first = cause;
+                rule.second = it->first;
+                rules.insert(pair< pair< set<int>, set<int> >, int>(rule, conf));
+            }
+            else
+                Hm1.erase(it);
+        }
+        vector <set <int> > Hm1_vec = get_vector(Hm1);
+        ap_genrules(fk,Hm1_vec);*/
+    }
+}
+/*
+Returns the support count for a frequent item set
+*/
+int find_suppcount(set <int> itemset)
+{
+    int k=static_cast<int>(itemset.size())-1;
+    if(k<0)
+        return -1;
+    if(freq_item[k].find(itemset)!=freq_item[k].end())
+    {
+        return freq_item[k].find(itemset)->second;
+    }
+    return -1;
+}
+/*
+Computes and returns the set difference b/w two sets
+*/
+set <int> setdiff(set <int> a, set <int> b)
+{
+    set <int>::iterator it;
+    for (it = b.begin(); it != b.end(); ++it)
+       {
+           if(a.find(*it)!=a.end())
+                a.erase(*it);
+       }
+    return a;
+}
+/*
+Function to convert a set to a vector
+*/
+vector < set <int> > conv_set_to_vector_set(set <int> s)
+{
+    vector < set <int> > v;
+    set<int>::iterator it;
+    it = s.begin();
+    set<int> p;
+    for (; it != s.end(); ++it)
+    {
+        p.insert(*it);
+        v.push_back(p);
+        p.clear();
+    }
+    return v;
 }
