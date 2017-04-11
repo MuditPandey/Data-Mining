@@ -2,9 +2,9 @@
 #include<bits/stdc++.h>
 
 #define N 435
-#define MIN_SUP 0.45
+#define MIN_SUP 0.3
 #define MIN_CONF 0.7
-#define CHILD 30
+#define CHILD 70
 #define CAPACITY 30
 
 using namespace std;
@@ -82,6 +82,16 @@ int main()
  cout<<"done\n";
  cout<<"Transactions="<<transactions.size()<<endl;
  gen_freq_itemset();
+ for(int i=0;i<freq_item.size();i++)
+ {
+     cout<<i+1<<"th item-set:-\n";
+     for(map< set<int>,int >::iterator it=freq_item[i].begin();it!=freq_item[i].end();it++)
+     {
+         for(set<int>::iterator it2=it->first.begin();it2!=it->first.end();it2++)
+            cout<<*it2<<" ";
+         cout<<"Support="<<(float)it->second/N<<endl;
+     }
+ }
 
  return 0;
 }
@@ -129,7 +139,10 @@ void gen_freq_itemset()
          }
 
      }
-     freq_item.push_back(add);
+     if(!add.empty())
+        freq_item.push_back(add);
+     else
+        break;
      //Prints the candidate k item-set map
      for(map< set<int>,int>::iterator it=freq_item[k].begin();it!=freq_item[k].end();it++)
      {
@@ -137,8 +150,6 @@ void gen_freq_itemset()
             cout<<*it2<<" ";
          cout<<" "<<it->second<<endl;
      }
-     if(Ck.empty())
-        break;
   }
 }
 
@@ -381,7 +392,9 @@ void update_support(map< set<int>,int > *Ck,node *root, set<int> transaction,set
     else if(root->children.empty() && root->visited==true)
         return;
 
-    set<int>::iterator it1=check_set.begin(),it2;
+    set<int>::iterator it1=check_set.begin();
+    if(check_set.size()<k)
+        return;
     for(int i=0;i<check_set.size()-k+1;it1++,i++)
     {
         set<int> new_check(check_set);
@@ -392,7 +405,6 @@ void update_support(map< set<int>,int > *Ck,node *root, set<int> transaction,set
         for(set<int>::iterator pl=new_check.begin();pl!=new_check.end();pl++)
                     cout<<*pl<<" ";
                 cout<<endl;*/
-
         update_support(Ck,&root->children[find_hashval(*it1)],transaction,new_check,k-1,level+1);
     }
     //cout<<"xxxxxxxxx"<<endl;
