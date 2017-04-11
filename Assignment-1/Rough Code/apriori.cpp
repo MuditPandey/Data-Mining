@@ -3,7 +3,7 @@
 
 #define N 435
 #define MIN_SUP 0.3
-#define MIN_CONF 0.7
+#define MIN_CONF 0.90
 #define CHILD 70
 #define CAPACITY 30
 
@@ -57,6 +57,9 @@ vector< map< set<int>,int > > freq_item;
 map<int,int> one_item_set;
 vector< set<int> > transactions;
 map< pair< set<int>, set<int> >, double> rules;
+map<int,string> item_meaning_map;
+
+void hash_meaning();
 //HASH TREE RELATED
 int find_hashval(int );
 void Print(node *, int tabs=0);
@@ -77,11 +80,14 @@ vector < set <int> > conv_set_to_vector_set(set <int> );
 int find_suppcount(set <int> );
 void ap_genrules(set <int> , vector <set <int> > );
 void rulegen();
+void print_rules();
 
 
 int main()
 {
  char file[]="vote.arff";
+ hash_meaning();
+ cout<<"Meanings hashed!\n";
  for(int i=1;i<=34;i++)
  {
      one_item_set.insert(pair<int,int> (i,0));
@@ -101,8 +107,10 @@ int main()
          cout<<"Support="<<(float)it->second/N<<endl;
      }
  }
+ cout<<"*****\n";
  //Rule Generation
  rulegen();
+ print_rules();
 
  return 0;
 }
@@ -127,17 +135,17 @@ void gen_freq_itemset()
 
      //Generates a map of all candidate k item-sets from k-1 item set
      map< set<int>,int> Ck=apriori_gen(get_vector(freq_item[k-1]));
-     for(map< set<int>,int>::iterator it=Ck.begin();it!=Ck.end();it++)
+     /*for(map< set<int>,int>::iterator it=Ck.begin();it!=Ck.end();it++)
      {
          for(set<int>::iterator it2=it->first.begin();it2!=it->first.end();it2++)
             cout<<*it2<<" ";
          cout<<" "<<it->second<<endl;
-     }
+     }*/
      node root=generate_hashtree(get_vector(Ck));
-     Print(&root);
+     //Print(&root);
      for(int i=0;i<transactions.size();i++)
      {
-         cout<<i<<"th transaction"<<endl;
+         //cout<<i<<"th transaction"<<endl;
          reset(&root);
          update_support(&Ck,&root,transactions[i],transactions[i],k+1,0);
      }
@@ -155,12 +163,12 @@ void gen_freq_itemset()
      else
         break;
      //Prints the candidate k item-set map
-     for(map< set<int>,int>::iterator it=freq_item[k].begin();it!=freq_item[k].end();it++)
+     /*for(map< set<int>,int>::iterator it=freq_item[k].begin();it!=freq_item[k].end();it++)
      {
          for(set<int>::iterator it2=it->first.begin();it2!=it->first.end();it2++)
             cout<<*it2<<" ";
          cout<<" "<<it->second<<endl;
-     }
+     }*/
   }
 }
 
@@ -444,17 +452,17 @@ void rulegen()
         //Traverse map of k-th item-set
         for (map< set<int>, int >::iterator it2 = freq_item[k].begin(); it2 != freq_item[k].end(); ++it2)
         {
-           cout<<"ITEMSET=";
+           //cout<<"ITEMSET=";
            vector< set<int> > one_item_consequent;
            //Get each set in k-th item set
            for (set<int>::iterator it = (it2->first).begin(); it != (it2->first).end(); ++it)
             {
-                cout<<*it<<" ";
+                //cout<<*it<<" ";
                 set<int> add;
                 add.insert(*it);
                 one_item_consequent.push_back(add);
             }
-            cout<<"\n1 consequents=";
+            /*cout<<"\n1 consequents=";
             for(int i=0;i<one_item_consequent.size();i++)
             {
                 for(set<int>::iterator it3=one_item_consequent[i].begin();it3!=one_item_consequent[i].end();it3++)
@@ -462,7 +470,7 @@ void rulegen()
                     cout<<*it3<<",";
                 }
             }
-            cout<<endl;
+            cout<<endl;*/
             ap_genrules(it2->first,one_item_consequent);
         }
     }
@@ -473,36 +481,39 @@ Recursive function that generates all rules
 void ap_genrules(set <int> fk,vector <set <int> > Hm)
 {
     int k = fk.size();
+    if(Hm.empty())
+        return;
     int m = Hm[0].size();
-    cout<<"K="<<k<<" M="<<m<<endl;
-    if (k >= m + 1)
+    //cout<<"K="<<k<<" M="<<m<<endl;
+    if (k > m + 1)
     {
-        map< set<int>,int > Hm1 = apriori_gen(Hm);
-        for(map< set<int>,int>::iterator it=Hm1.begin();it!=Hm1.end();it++)
+        vector< set<int> > Hm1 = get_vector(apriori_gen(Hm));
+        /*for(int i=0;i<Hm1.size();i++)
         {
-         for(set<int>::iterator it2=it->first.begin();it2!=it->first.end();it2++)
-            cout<<*it2<<" ";
-         cout<<" "<<it->second<<endl;
-        }
-       /* for (map< set<int>,int >::iterator it = Hm1.begin(); it != Hm1.end(); ++it)
+            for(set<int>::iterator it=Hm1[i].begin();it!=Hm1[i].end();it++)
+                cout<<*it<<" ";
+            cout<<endl;
+        }*/
+        for (int i=0;i<Hm1.size();i++)
         {
-            set <int> cause = setdiff(fk, it->first);
-            int ofk=0;
-            if(freq_item[k-1].find(fk)!=freq_item[k-1].end())
-               ofk=freq_item[k-1].find(fk)->second;
-            double conf = (double)ofk/ find_suppcount(cause);
+            set <int> cause = setdiff(fk, Hm1[i]);
+            double ofk=(double)freq_item[k-1].find(fk)->second;
+            double conf = ofk/find_suppcount(cause);
             if (conf >= MIN_CONF)
             {
+                //cout<<conf<<"\n";
                 pair< set <int>, set <int> > rule;
                 rule.first = cause;
-                rule.second = it->first;
-                rules.insert(pair< pair< set<int>, set<int> >, int>(rule, conf));
+                rule.second =Hm1[i];
+                rules.insert(pair< pair< set<int>, set<int> >, double>(rule, conf));
             }
             else
-                Hm1.erase(it);
+                {
+                    Hm1.erase(Hm1.begin()+i);
+                    i--;
+                }
         }
-        vector <set <int> > Hm1_vec = get_vector(Hm1);
-        ap_genrules(fk,Hm1_vec);*/
+        ap_genrules(fk,Hm1);
     }
 }
 /*
@@ -548,4 +559,66 @@ vector < set <int> > conv_set_to_vector_set(set <int> s)
         p.clear();
     }
     return v;
+}
+/*
+Function to print rules
+*/
+void print_rules()
+{
+        for(map< pair<set<int>,set<int> >,double >::iterator it=rules.begin();it!=rules.end();it++)
+        {
+            cout<<"{";
+            for(set<int>::iterator it2=it->first.first.begin();it2!=it->first.first.end();it2++)
+            {
+                cout<<item_meaning_map.find(*it2)->second<<",";
+            }
+            cout<<"}";
+            cout<<"-> {";
+            for(set<int>::iterator it2=it->first.second.begin();it2!=it->first.second.end();it2++)
+            {
+                cout<<item_meaning_map.find(*it2)->second<<",";
+            }
+            cout<<"} ";
+            cout<<"Confidence="<<it->second<<endl;
+        }
+}
+/*
+Function that creates a map b/w items and their actual meanings
+*/
+void hash_meaning()
+{
+ item_meaning_map.insert(pair<int,string>(1,"handicapped-infants=n"));
+ item_meaning_map.insert(pair<int,string>(2,"handicapped-infants=y"));
+ item_meaning_map.insert(pair<int,string>(3,"water-project-cost-sharing=n"));
+ item_meaning_map.insert(pair<int,string>(4,"water-project-cost-sharing=y"));
+ item_meaning_map.insert(pair<int,string>(5,"adoption-of-the-budget-resolution=n"));
+ item_meaning_map.insert(pair<int,string>(6,"adoption-of-the-budget-resolution=y"));
+ item_meaning_map.insert(pair<int,string>(7,"physician-fee-freeze=n"));
+ item_meaning_map.insert(pair<int,string>(8,"physician-fee-freeze=y"));
+ item_meaning_map.insert(pair<int,string>(9,"el-salvador-aid=n"));
+ item_meaning_map.insert(pair<int,string>(10,"el-salvador-aid=y"));
+ item_meaning_map.insert(pair<int,string>(11,"religious-groups-in-schools=n"));
+ item_meaning_map.insert(pair<int,string>(12,"religious-groups-in-schools=y"));
+ item_meaning_map.insert(pair<int,string>(13,"anti-satellite-test-ban=n"));
+ item_meaning_map.insert(pair<int,string>(14,"anti-satellite-test-ban=y"));
+ item_meaning_map.insert(pair<int,string>(15,"aid-to-nicaraguan-contras=n"));
+ item_meaning_map.insert(pair<int,string>(16,"aid-to-nicaraguan-contras=y"));
+ item_meaning_map.insert(pair<int,string>(17,"mx-missile=n"));
+ item_meaning_map.insert(pair<int,string>(18,"mx-missile=y"));
+ item_meaning_map.insert(pair<int,string>(19,"immigration=n"));
+ item_meaning_map.insert(pair<int,string>(20,"immigration=y"));
+ item_meaning_map.insert(pair<int,string>(21,"synfuels-corporation-cutback=n"));
+ item_meaning_map.insert(pair<int,string>(22,"synfuels-corporation-cutback=y"));
+ item_meaning_map.insert(pair<int,string>(23,"education-spending=n"));
+ item_meaning_map.insert(pair<int,string>(24,"education-spending=y"));
+ item_meaning_map.insert(pair<int,string>(25,"superfund-right-to-sue=n"));
+ item_meaning_map.insert(pair<int,string>(26,"superfund-right-to-sue=y"));
+ item_meaning_map.insert(pair<int,string>(27,"crime=n"));
+ item_meaning_map.insert(pair<int,string>(28,"crime=y"));
+ item_meaning_map.insert(pair<int,string>(29,"duty-free-exports=n"));
+ item_meaning_map.insert(pair<int,string>(30,"duty-free-exports=y"));
+ item_meaning_map.insert(pair<int,string>(31,"export-administration-act-south-africa=n"));
+ item_meaning_map.insert(pair<int,string>(32,"export-administration-act-south-africa=y"));
+ item_meaning_map.insert(pair<int,string>(33,"Class=republican"));
+ item_meaning_map.insert(pair<int,string>(34,"Class=democrat"));
 }
