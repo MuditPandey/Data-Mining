@@ -2,8 +2,8 @@
 #include<bits/stdc++.h>
 
 #define N 435
-#define MIN_SUP 0.3
-#define MIN_CONF 0.90
+#define MIN_SUP 0.4
+#define MIN_CONF 0.95
 #define CHILD 70
 #define CAPACITY 30
 
@@ -78,7 +78,7 @@ map< set<int>,int> get_1_freq();
 set<int> setdiff(set <int>, set <int>) ;
 vector < set <int> > conv_set_to_vector_set(set <int> );
 int find_suppcount(set <int> );
-void ap_genrules(set <int> , vector <set <int> > );
+void ap_genrules(set <int> , vector <set <int> >, int inc = 0);
 void rulegen();
 void print_rules();
 
@@ -478,16 +478,20 @@ void rulegen()
 /*
 Recursive function that generates all rules
 */
-void ap_genrules(set <int> fk,vector <set <int> > Hm)
+void ap_genrules(set <int> fk,vector <set <int> > Hm, int inc)
 {
     int k = fk.size();
     if(Hm.empty())
         return;
     int m = Hm[0].size();
     //cout<<"K="<<k<<" M="<<m<<endl;
-    if (k > m + 1)
+    if (k > m + inc)
     {
-        vector< set<int> > Hm1 = get_vector(apriori_gen(Hm));
+        vector< set<int> > Hm1;
+        if (inc)
+            Hm1 = get_vector(apriori_gen(Hm));
+        else
+            Hm1 = Hm;
         /*for(int i=0;i<Hm1.size();i++)
         {
             for(set<int>::iterator it=Hm1[i].begin();it!=Hm1[i].end();it++)
@@ -513,7 +517,7 @@ void ap_genrules(set <int> fk,vector <set <int> > Hm)
                     i--;
                 }
         }
-        ap_genrules(fk,Hm1);
+        ap_genrules(fk,Hm1,1);
     }
 }
 /*
