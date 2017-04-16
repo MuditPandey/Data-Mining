@@ -1,0 +1,1430 @@
+
+Support = 0.542529: {handicapped-infants=n}
+Support = 0.429885: {handicapped-infants=y}
+Support = 0.441379: {water-project-cost-sharing=n}
+Support = 0.448276: {water-project-cost-sharing=y}
+Support = 0.393103: {adoption-of-the-budget-resolution=n}
+Support = 0.581609: {adoption-of-the-budget-resolution=y}
+Support = 0.567816: {physician-fee-freeze=n}
+Support = 0.406897: {physician-fee-freeze=y}
+Support = 0.478161: {el-salvador-aid=n}
+Support = 0.487356: {el-salvador-aid=y}
+Support = 0.349425: {religious-groups-in-schools=n}
+Support = 0.625287: {religious-groups-in-schools=y}
+Support = 0.418391: {anti-satellite-test-ban=n}
+Support = 0.549425: {anti-satellite-test-ban=y}
+Support = 0.409195: {aid-to-nicaraguan-contras=n}
+Support = 0.556322: {aid-to-nicaraguan-contras=y}
+Support = 0.473563: {mx-missile=n}
+Support = 0.475862: {mx-missile=y}
+Support = 0.487356: {immigration=n}
+Support = 0.496552: {immigration=y}
+Support = 0.606897: {synfuels-corporation-cutback=n}
+Support = 0.344828: {synfuels-corporation-cutback=y}
+Support = 0.535632: {education-spending=n}
+Support = 0.393103: {education-spending=y}
+Support = 0.462069: {superfund-right-to-sue=n}
+Support = 0.48046: {superfund-right-to-sue=y}
+Support = 0.390805: {crime=n}
+Support = 0.570115: {crime=y}
+Support = 0.535632: {duty-free-exports=n}
+Support = 0.4: {duty-free-exports=y}
+Support = 0.618391: {export-administration-act-south-africa=y}
+Support = 0.386207: {Class=republican}
+Support = 0.613793: {Class=democrat}
+Support = 0.310345: {handicapped-infants=n,adoption-of-the-budget-resolution=n}
+Support = 0.326437: {handicapped-infants=n,physician-fee-freeze=y}
+Support = 0.36092: {handicapped-infants=n,el-salvador-aid=y}
+Support = 0.436782: {handicapped-infants=n,religious-groups-in-schools=y}
+Support = 0.317241: {handicapped-infants=n,anti-satellite-test-ban=n}
+Support = 0.317241: {handicapped-infants=n,aid-to-nicaraguan-contras=n}
+Support = 0.347126: {handicapped-infants=n,mx-missile=n}
+Support = 0.356322: {handicapped-infants=n,synfuels-corporation-cutback=n}
+Support = 0.312644: {handicapped-infants=n,education-spending=y}
+Support = 0.344828: {handicapped-infants=n,superfund-right-to-sue=y}
+Support = 0.397701: {handicapped-infants=n,crime=y}
+Support = 0.335632: {handicapped-infants=n,duty-free-exports=n}
+Support = 0.335632: {handicapped-infants=n,export-administration-act-south-africa=y}
+Support = 0.347126: {handicapped-infants=y,adoption-of-the-budget-resolution=y}
+Support = 0.344828: {handicapped-infants=y,physician-fee-freeze=n}
+Support = 0.321839: {handicapped-infants=y,anti-satellite-test-ban=y}
+Support = 0.335632: {handicapped-infants=y,aid-to-nicaraguan-contras=y}
+Support = 0.326437: {handicapped-infants=y,education-spending=n}
+Support = 0.358621: {handicapped-infants=y,Class=democrat}
+Support = 0.308046: {water-project-cost-sharing=n,synfuels-corporation-cutback=n}
+Support = 0.303448: {water-project-cost-sharing=n,export-administration-act-south-africa=y}
+Support = 0.314943: {water-project-cost-sharing=y,religious-groups-in-schools=y}
+Support = 0.335632: {adoption-of-the-budget-resolution=n,physician-fee-freeze=y}
+Support = 0.351724: {adoption-of-the-budget-resolution=n,el-salvador-aid=y}
+Support = 0.347126: {adoption-of-the-budget-resolution=n,religious-groups-in-schools=y}
+Support = 0.321839: {adoption-of-the-budget-resolution=n,aid-to-nicaraguan-contras=n}
+Support = 0.335632: {adoption-of-the-budget-resolution=n,mx-missile=n}
+Support = 0.305747: {adoption-of-the-budget-resolution=n,education-spending=y}
+Support = 0.312644: {adoption-of-the-budget-resolution=n,superfund-right-to-sue=y}
+Support = 0.363218: {adoption-of-the-budget-resolution=n,crime=y}
+Support = 0.321839: {adoption-of-the-budget-resolution=n,duty-free-exports=n}
+Support = 0.326437: {adoption-of-the-budget-resolution=n,Class=republican}
+Support = 0.503448: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n}
+Support = 0.432184: {adoption-of-the-budget-resolution=y,el-salvador-aid=n}
+Support = 0.303448: {adoption-of-the-budget-resolution=y,religious-groups-in-schools=n}
+Support = 0.462069: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y}
+Support = 0.494253: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y}
+Support = 0.413793: {adoption-of-the-budget-resolution=y,mx-missile=y}
+Support = 0.305747: {adoption-of-the-budget-resolution=y,synfuels-corporation-cutback=n}
+Support = 0.462069: {adoption-of-the-budget-resolution=y,education-spending=n}
+Support = 0.395402: {adoption-of-the-budget-resolution=y,superfund-right-to-sue=n}
+Support = 0.363218: {adoption-of-the-budget-resolution=y,crime=n}
+Support = 0.347126: {adoption-of-the-budget-resolution=y,duty-free-exports=y}
+Support = 0.397701: {adoption-of-the-budget-resolution=y,export-administration-act-south-africa=y}
+Support = 0.531034: {adoption-of-the-budget-resolution=y,Class=democrat}
+Support = 0.448276: {physician-fee-freeze=n,el-salvador-aid=n}
+Support = 0.308046: {physician-fee-freeze=n,religious-groups-in-schools=n}
+Support = 0.452874: {physician-fee-freeze=n,anti-satellite-test-ban=y}
+Support = 0.485057: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y}
+Support = 0.413793: {physician-fee-freeze=n,mx-missile=y}
+Support = 0.464368: {physician-fee-freeze=n,education-spending=n}
+Support = 0.409195: {physician-fee-freeze=n,superfund-right-to-sue=n}
+Support = 0.374713: {physician-fee-freeze=n,crime=n}
+Support = 0.356322: {physician-fee-freeze=n,duty-free-exports=y}
+Support = 0.381609: {physician-fee-freeze=n,export-administration-act-south-africa=y}
+Support = 0.563218: {physician-fee-freeze=n,Class=democrat}
+Support = 0.386207: {physician-fee-freeze=y,el-salvador-aid=y}
+Support = 0.367816: {physician-fee-freeze=y,religious-groups-in-schools=y}
+Support = 0.308046: {physician-fee-freeze=y,anti-satellite-test-ban=n}
+Support = 0.328736: {physician-fee-freeze=y,aid-to-nicaraguan-contras=n}
+Support = 0.354023: {physician-fee-freeze=y,mx-missile=n}
+Support = 0.317241: {physician-fee-freeze=y,synfuels-corporation-cutback=n}
+Support = 0.324138: {physician-fee-freeze=y,education-spending=y}
+Support = 0.333333: {physician-fee-freeze=y,superfund-right-to-sue=y}
+Support = 0.386207: {physician-fee-freeze=y,crime=y}
+Support = 0.344828: {physician-fee-freeze=y,duty-free-exports=n}
+Support = 0.374713: {physician-fee-freeze=y,Class=republican}
+Support = 0.314943: {el-salvador-aid=n,religious-groups-in-schools=n}
+Support = 0.432184: {el-salvador-aid=n,anti-satellite-test-ban=y}
+Support = 0.468966: {el-salvador-aid=n,aid-to-nicaraguan-contras=y}
+Support = 0.411494: {el-salvador-aid=n,mx-missile=y}
+Support = 0.406897: {el-salvador-aid=n,education-spending=n}
+Support = 0.374713: {el-salvador-aid=n,superfund-right-to-sue=n}
+Support = 0.351724: {el-salvador-aid=n,crime=n}
+Support = 0.324138: {el-salvador-aid=n,duty-free-exports=y}
+Support = 0.333333: {el-salvador-aid=n,export-administration-act-south-africa=y}
+Support = 0.45977: {el-salvador-aid=n,Class=democrat}
+Support = 0.452874: {el-salvador-aid=y,religious-groups-in-schools=y}
+Support = 0.372414: {el-salvador-aid=y,anti-satellite-test-ban=n}
+Support = 0.395402: {el-salvador-aid=y,aid-to-nicaraguan-contras=n}
+Support = 0.422989: {el-salvador-aid=y,mx-missile=n}
+Support = 0.333333: {el-salvador-aid=y,synfuels-corporation-cutback=n}
+Support = 0.342529: {el-salvador-aid=y,education-spending=y}
+Support = 0.390805: {el-salvador-aid=y,superfund-right-to-sue=y}
+Support = 0.445977: {el-salvador-aid=y,crime=y}
+Support = 0.393103: {el-salvador-aid=y,duty-free-exports=n}
+Support = 0.36092: {el-salvador-aid=y,Class=republican}
+Support = 0.31954: {religious-groups-in-schools=n,anti-satellite-test-ban=y}
+Support = 0.326437: {religious-groups-in-schools=n,aid-to-nicaraguan-contras=y}
+Support = 0.301149: {religious-groups-in-schools=n,education-spending=n}
+Support = 0.310345: {religious-groups-in-schools=n,Class=democrat}
+Support = 0.388506: {religious-groups-in-schools=y,anti-satellite-test-ban=n}
+Support = 0.381609: {religious-groups-in-schools=y,aid-to-nicaraguan-contras=n}
+Support = 0.432184: {religious-groups-in-schools=y,mx-missile=n}
+Support = 0.335632: {religious-groups-in-schools=y,immigration=y}
+Support = 0.381609: {religious-groups-in-schools=y,synfuels-corporation-cutback=n}
+Support = 0.365517: {religious-groups-in-schools=y,education-spending=y}
+Support = 0.427586: {religious-groups-in-schools=y,superfund-right-to-sue=y}
+Support = 0.491954: {religious-groups-in-schools=y,crime=y}
+Support = 0.443678: {religious-groups-in-schools=y,duty-free-exports=n}
+Support = 0.363218: {religious-groups-in-schools=y,export-administration-act-south-africa=y}
+Support = 0.342529: {religious-groups-in-schools=y,Class=republican}
+Support = 0.342529: {anti-satellite-test-ban=n,aid-to-nicaraguan-contras=n}
+Support = 0.358621: {anti-satellite-test-ban=n,mx-missile=n}
+Support = 0.337931: {anti-satellite-test-ban=n,superfund-right-to-sue=y}
+Support = 0.36092: {anti-satellite-test-ban=n,crime=y}
+Support = 0.342529: {anti-satellite-test-ban=n,duty-free-exports=n}
+Support = 0.482759: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y}
+Support = 0.418391: {anti-satellite-test-ban=y,mx-missile=y}
+Support = 0.326437: {anti-satellite-test-ban=y,synfuels-corporation-cutback=n}
+Support = 0.422989: {anti-satellite-test-ban=y,education-spending=n}
+Support = 0.390805: {anti-satellite-test-ban=y,superfund-right-to-sue=n}
+Support = 0.34023: {anti-satellite-test-ban=y,crime=n}
+Support = 0.333333: {anti-satellite-test-ban=y,duty-free-exports=y}
+Support = 0.395402: {anti-satellite-test-ban=y,export-administration-act-south-africa=y}
+Support = 0.45977: {anti-satellite-test-ban=y,Class=democrat}
+Support = 0.372414: {aid-to-nicaraguan-contras=n,mx-missile=n}
+Support = 0.303448: {aid-to-nicaraguan-contras=n,education-spending=y}
+Support = 0.342529: {aid-to-nicaraguan-contras=n,superfund-right-to-sue=y}
+Support = 0.381609: {aid-to-nicaraguan-contras=n,crime=y}
+Support = 0.349425: {aid-to-nicaraguan-contras=n,duty-free-exports=n}
+Support = 0.305747: {aid-to-nicaraguan-contras=n,Class=republican}
+Support = 0.441379: {aid-to-nicaraguan-contras=y,mx-missile=y}
+Support = 0.308046: {aid-to-nicaraguan-contras=y,synfuels-corporation-cutback=n}
+Support = 0.445977: {aid-to-nicaraguan-contras=y,education-spending=n}
+Support = 0.404598: {aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}
+Support = 0.367816: {aid-to-nicaraguan-contras=y,crime=n}
+Support = 0.347126: {aid-to-nicaraguan-contras=y,duty-free-exports=y}
+Support = 0.386207: {aid-to-nicaraguan-contras=y,export-administration-act-south-africa=y}
+Support = 0.501149: {aid-to-nicaraguan-contras=y,Class=democrat}
+Support = 0.301149: {mx-missile=n,synfuels-corporation-cutback=n}
+Support = 0.324138: {mx-missile=n,education-spending=y}
+Support = 0.358621: {mx-missile=n,superfund-right-to-sue=y}
+Support = 0.404598: {mx-missile=n,crime=y}
+Support = 0.372414: {mx-missile=n,duty-free-exports=n}
+Support = 0.335632: {mx-missile=n,Class=republican}
+Support = 0.393103: {mx-missile=y,education-spending=n}
+Support = 0.342529: {mx-missile=y,superfund-right-to-sue=n}
+Support = 0.314943: {mx-missile=y,crime=n}
+Support = 0.34023: {mx-missile=y,export-administration-act-south-africa=y}
+Support = 0.432184: {mx-missile=y,Class=democrat}
+Support = 0.31954: {immigration=n,Class=democrat}
+Support = 0.312644: {immigration=y,synfuels-corporation-cutback=n}
+Support = 0.314943: {immigration=y,crime=y}
+Support = 0.344828: {immigration=y,export-administration-act-south-africa=y}
+Support = 0.317241: {synfuels-corporation-cutback=n,superfund-right-to-sue=y}
+Support = 0.37931: {synfuels-corporation-cutback=n,crime=y}
+Support = 0.358621: {synfuels-corporation-cutback=n,duty-free-exports=n}
+Support = 0.381609: {synfuels-corporation-cutback=n,export-administration-act-south-africa=y}
+Support = 0.317241: {synfuels-corporation-cutback=n,Class=republican}
+Support = 0.374713: {education-spending=n,superfund-right-to-sue=n}
+Support = 0.347126: {education-spending=n,crime=n}
+Support = 0.324138: {education-spending=n,duty-free-exports=y}
+Support = 0.365517: {education-spending=n,export-administration-act-south-africa=y}
+Support = 0.489655: {education-spending=n,Class=democrat}
+Support = 0.31954: {education-spending=y,superfund-right-to-sue=y}
+Support = 0.363218: {education-spending=y,crime=y}
+Support = 0.331034: {education-spending=y,duty-free-exports=n}
+Support = 0.310345: {education-spending=y,Class=republican}
+Support = 0.312644: {superfund-right-to-sue=n,crime=n}
+Support = 0.317241: {superfund-right-to-sue=n,export-administration-act-south-africa=y}
+Support = 0.411494: {superfund-right-to-sue=n,Class=democrat}
+Support = 0.406897: {superfund-right-to-sue=y,crime=y}
+Support = 0.37931: {superfund-right-to-sue=y,duty-free-exports=n}
+Support = 0.312644: {superfund-right-to-sue=y,Class=republican}
+Support = 0.383908: {crime=n,Class=democrat}
+Support = 0.432184: {crime=y,duty-free-exports=n}
+Support = 0.34023: {crime=y,export-administration-act-south-africa=y}
+Support = 0.363218: {crime=y,Class=republican}
+Support = 0.317241: {duty-free-exports=n,export-administration-act-south-africa=y}
+Support = 0.326437: {duty-free-exports=n,Class=republican}
+Support = 0.367816: {duty-free-exports=y,Class=democrat}
+Support = 0.397701: {export-administration-act-south-africa=y,Class=democrat}
+Support = 0.314943: {handicapped-infants=n,physician-fee-freeze=y,el-salvador-aid=y}
+Support = 0.303448: {handicapped-infants=n,physician-fee-freeze=y,religious-groups-in-schools=y}
+Support = 0.308046: {handicapped-infants=n,physician-fee-freeze=y,crime=y}
+Support = 0.337931: {handicapped-infants=n,el-salvador-aid=y,religious-groups-in-schools=y}
+Support = 0.310345: {handicapped-infants=n,el-salvador-aid=y,aid-to-nicaraguan-contras=n}
+Support = 0.326437: {handicapped-infants=n,el-salvador-aid=y,mx-missile=n}
+Support = 0.303448: {handicapped-infants=n,el-salvador-aid=y,superfund-right-to-sue=y}
+Support = 0.301149: {handicapped-infants=n,religious-groups-in-schools=y,anti-satellite-test-ban=n}
+Support = 0.301149: {handicapped-infants=n,religious-groups-in-schools=y,aid-to-nicaraguan-contras=n}
+Support = 0.326437: {handicapped-infants=n,religious-groups-in-schools=y,mx-missile=n}
+Support = 0.31954: {handicapped-infants=n,religious-groups-in-schools=y,superfund-right-to-sue=y}
+Support = 0.356322: {handicapped-infants=n,religious-groups-in-schools=y,crime=y}
+Support = 0.314943: {handicapped-infants=n,religious-groups-in-schools=y,duty-free-exports=n}
+Support = 0.305747: {handicapped-infants=n,mx-missile=n,crime=y}
+Support = 0.310345: {handicapped-infants=n,superfund-right-to-sue=y,crime=y}
+Support = 0.305747: {handicapped-infants=n,crime=y,duty-free-exports=n}
+Support = 0.31954: {handicapped-infants=y,adoption-of-the-budget-resolution=y,physician-fee-freeze=n}
+Support = 0.314943: {handicapped-infants=y,adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y}
+Support = 0.326437: {handicapped-infants=y,adoption-of-the-budget-resolution=y,Class=democrat}
+Support = 0.305747: {handicapped-infants=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y}
+Support = 0.342529: {handicapped-infants=y,physician-fee-freeze=n,Class=democrat}
+Support = 0.310345: {handicapped-infants=y,aid-to-nicaraguan-contras=y,Class=democrat}
+Support = 0.301149: {handicapped-infants=y,education-spending=n,Class=democrat}
+Support = 0.324138: {adoption-of-the-budget-resolution=n,physician-fee-freeze=y,el-salvador-aid=y}
+Support = 0.308046: {adoption-of-the-budget-resolution=n,physician-fee-freeze=y,religious-groups-in-schools=y}
+Support = 0.310345: {adoption-of-the-budget-resolution=n,physician-fee-freeze=y,mx-missile=n}
+Support = 0.317241: {adoption-of-the-budget-resolution=n,physician-fee-freeze=y,crime=y}
+Support = 0.321839: {adoption-of-the-budget-resolution=n,physician-fee-freeze=y,Class=republican}
+Support = 0.326437: {adoption-of-the-budget-resolution=n,el-salvador-aid=y,religious-groups-in-schools=y}
+Support = 0.314943: {adoption-of-the-budget-resolution=n,el-salvador-aid=y,aid-to-nicaraguan-contras=n}
+Support = 0.331034: {adoption-of-the-budget-resolution=n,el-salvador-aid=y,mx-missile=n}
+Support = 0.335632: {adoption-of-the-budget-resolution=n,el-salvador-aid=y,crime=y}
+Support = 0.305747: {adoption-of-the-budget-resolution=n,el-salvador-aid=y,duty-free-exports=n}
+Support = 0.317241: {adoption-of-the-budget-resolution=n,el-salvador-aid=y,Class=republican}
+Support = 0.303448: {adoption-of-the-budget-resolution=n,religious-groups-in-schools=y,aid-to-nicaraguan-contras=n}
+Support = 0.317241: {adoption-of-the-budget-resolution=n,religious-groups-in-schools=y,mx-missile=n}
+Support = 0.326437: {adoption-of-the-budget-resolution=n,religious-groups-in-schools=y,crime=y}
+Support = 0.310345: {adoption-of-the-budget-resolution=n,aid-to-nicaraguan-contras=n,mx-missile=n}
+Support = 0.308046: {adoption-of-the-budget-resolution=n,aid-to-nicaraguan-contras=n,crime=y}
+Support = 0.31954: {adoption-of-the-budget-resolution=n,mx-missile=n,crime=y}
+Support = 0.303448: {adoption-of-the-budget-resolution=n,mx-missile=n,Class=republican}
+Support = 0.310345: {adoption-of-the-budget-resolution=n,crime=y,duty-free-exports=n}
+Support = 0.310345: {adoption-of-the-budget-resolution=n,crime=y,Class=republican}
+Support = 0.416092: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n}
+Support = 0.418391: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y}
+Support = 0.455172: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y}
+Support = 0.383908: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,mx-missile=y}
+Support = 0.427586: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,education-spending=n}
+Support = 0.372414: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,superfund-right-to-sue=n}
+Support = 0.358621: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,crime=n}
+Support = 0.321839: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,duty-free-exports=y}
+Support = 0.337931: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,export-administration-act-south-africa=y}
+Support = 0.503448: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,Class=democrat}
+Support = 0.393103: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y}
+Support = 0.427586: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,aid-to-nicaraguan-contras=y}
+Support = 0.367816: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,mx-missile=y}
+Support = 0.370115: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,education-spending=n}
+Support = 0.347126: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,superfund-right-to-sue=n}
+Support = 0.331034: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,crime=n}
+Support = 0.303448: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,export-administration-act-south-africa=y}
+Support = 0.422989: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,Class=democrat}
+Support = 0.429885: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y}
+Support = 0.370115: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,mx-missile=y}
+Support = 0.37931: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,education-spending=n}
+Support = 0.351724: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,superfund-right-to-sue=n}
+Support = 0.324138: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,crime=n}
+Support = 0.321839: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,export-administration-act-south-africa=y}
+Support = 0.422989: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,Class=democrat}
+Support = 0.393103: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,mx-missile=y}
+Support = 0.411494: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,education-spending=n}
+Support = 0.37931: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}
+Support = 0.349425: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,crime=n}
+Support = 0.317241: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,duty-free-exports=y}
+Support = 0.342529: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,export-administration-act-south-africa=y}
+Support = 0.466667: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,Class=democrat}
+Support = 0.356322: {adoption-of-the-budget-resolution=y,mx-missile=y,education-spending=n}
+Support = 0.314943: {adoption-of-the-budget-resolution=y,mx-missile=y,superfund-right-to-sue=n}
+Support = 0.393103: {adoption-of-the-budget-resolution=y,mx-missile=y,Class=democrat}
+Support = 0.335632: {adoption-of-the-budget-resolution=y,education-spending=n,superfund-right-to-sue=n}
+Support = 0.324138: {adoption-of-the-budget-resolution=y,education-spending=n,crime=n}
+Support = 0.312644: {adoption-of-the-budget-resolution=y,education-spending=n,export-administration-act-south-africa=y}
+Support = 0.441379: {adoption-of-the-budget-resolution=y,education-spending=n,Class=democrat}
+Support = 0.374713: {adoption-of-the-budget-resolution=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.363218: {adoption-of-the-budget-resolution=y,crime=n,Class=democrat}
+Support = 0.331034: {adoption-of-the-budget-resolution=y,duty-free-exports=y,Class=democrat}
+Support = 0.351724: {adoption-of-the-budget-resolution=y,export-administration-act-south-africa=y,Class=democrat}
+Support = 0.301149: {physician-fee-freeze=n,el-salvador-aid=n,religious-groups-in-schools=n}
+Support = 0.409195: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y}
+Support = 0.441379: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y}
+Support = 0.383908: {physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y}
+Support = 0.386207: {physician-fee-freeze=n,el-salvador-aid=n,education-spending=n}
+Support = 0.36092: {physician-fee-freeze=n,el-salvador-aid=n,superfund-right-to-sue=n}
+Support = 0.342529: {physician-fee-freeze=n,el-salvador-aid=n,crime=n}
+Support = 0.312644: {physician-fee-freeze=n,el-salvador-aid=n,duty-free-exports=y}
+Support = 0.310345: {physician-fee-freeze=n,el-salvador-aid=n,export-administration-act-south-africa=y}
+Support = 0.445977: {physician-fee-freeze=n,el-salvador-aid=n,Class=democrat}
+Support = 0.305747: {physician-fee-freeze=n,religious-groups-in-schools=n,aid-to-nicaraguan-contras=y}
+Support = 0.305747: {physician-fee-freeze=n,religious-groups-in-schools=n,Class=democrat}
+Support = 0.425287: {physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y}
+Support = 0.374713: {physician-fee-freeze=n,anti-satellite-test-ban=y,mx-missile=y}
+Support = 0.386207: {physician-fee-freeze=n,anti-satellite-test-ban=y,education-spending=n}
+Support = 0.363218: {physician-fee-freeze=n,anti-satellite-test-ban=y,superfund-right-to-sue=n}
+Support = 0.335632: {physician-fee-freeze=n,anti-satellite-test-ban=y,crime=n}
+Support = 0.308046: {physician-fee-freeze=n,anti-satellite-test-ban=y,duty-free-exports=y}
+Support = 0.312644: {physician-fee-freeze=n,anti-satellite-test-ban=y,export-administration-act-south-africa=y}
+Support = 0.448276: {physician-fee-freeze=n,anti-satellite-test-ban=y,Class=democrat}
+Support = 0.4: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,mx-missile=y}
+Support = 0.416092: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,education-spending=n}
+Support = 0.381609: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}
+Support = 0.358621: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,crime=n}
+Support = 0.326437: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,duty-free-exports=y}
+Support = 0.326437: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,export-administration-act-south-africa=y}
+Support = 0.482759: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,Class=democrat}
+Support = 0.365517: {physician-fee-freeze=n,mx-missile=y,education-spending=n}
+Support = 0.328736: {physician-fee-freeze=n,mx-missile=y,superfund-right-to-sue=n}
+Support = 0.308046: {physician-fee-freeze=n,mx-missile=y,crime=n}
+Support = 0.411494: {physician-fee-freeze=n,mx-missile=y,Class=democrat}
+Support = 0.351724: {physician-fee-freeze=n,education-spending=n,superfund-right-to-sue=n}
+Support = 0.337931: {physician-fee-freeze=n,education-spending=n,crime=n}
+Support = 0.303448: {physician-fee-freeze=n,education-spending=n,duty-free-exports=y}
+Support = 0.314943: {physician-fee-freeze=n,education-spending=n,export-administration-act-south-africa=y}
+Support = 0.462069: {physician-fee-freeze=n,education-spending=n,Class=democrat}
+Support = 0.310345: {physician-fee-freeze=n,superfund-right-to-sue=n,crime=n}
+Support = 0.404598: {physician-fee-freeze=n,superfund-right-to-sue=n,Class=democrat}
+Support = 0.374713: {physician-fee-freeze=n,crime=n,Class=democrat}
+Support = 0.354023: {physician-fee-freeze=n,duty-free-exports=y,Class=democrat}
+Support = 0.377012: {physician-fee-freeze=n,export-administration-act-south-africa=y,Class=democrat}
+Support = 0.358621: {physician-fee-freeze=y,el-salvador-aid=y,religious-groups-in-schools=y}
+Support = 0.303448: {physician-fee-freeze=y,el-salvador-aid=y,anti-satellite-test-ban=n}
+Support = 0.326437: {physician-fee-freeze=y,el-salvador-aid=y,aid-to-nicaraguan-contras=n}
+Support = 0.351724: {physician-fee-freeze=y,el-salvador-aid=y,mx-missile=n}
+Support = 0.303448: {physician-fee-freeze=y,el-salvador-aid=y,synfuels-corporation-cutback=n}
+Support = 0.317241: {physician-fee-freeze=y,el-salvador-aid=y,education-spending=y}
+Support = 0.324138: {physician-fee-freeze=y,el-salvador-aid=y,superfund-right-to-sue=y}
+Support = 0.367816: {physician-fee-freeze=y,el-salvador-aid=y,crime=y}
+Support = 0.331034: {physician-fee-freeze=y,el-salvador-aid=y,duty-free-exports=n}
+Support = 0.358621: {physician-fee-freeze=y,el-salvador-aid=y,Class=republican}
+Support = 0.308046: {physician-fee-freeze=y,religious-groups-in-schools=y,aid-to-nicaraguan-contras=n}
+Support = 0.335632: {physician-fee-freeze=y,religious-groups-in-schools=y,mx-missile=n}
+Support = 0.305747: {physician-fee-freeze=y,religious-groups-in-schools=y,education-spending=y}
+Support = 0.312644: {physician-fee-freeze=y,religious-groups-in-schools=y,superfund-right-to-sue=y}
+Support = 0.347126: {physician-fee-freeze=y,religious-groups-in-schools=y,crime=y}
+Support = 0.317241: {physician-fee-freeze=y,religious-groups-in-schools=y,duty-free-exports=n}
+Support = 0.337931: {physician-fee-freeze=y,religious-groups-in-schools=y,Class=republican}
+Support = 0.312644: {physician-fee-freeze=y,aid-to-nicaraguan-contras=n,mx-missile=n}
+Support = 0.317241: {physician-fee-freeze=y,aid-to-nicaraguan-contras=n,crime=y}
+Support = 0.303448: {physician-fee-freeze=y,aid-to-nicaraguan-contras=n,Class=republican}
+Support = 0.335632: {physician-fee-freeze=y,mx-missile=n,crime=y}
+Support = 0.305747: {physician-fee-freeze=y,mx-missile=n,duty-free-exports=n}
+Support = 0.333333: {physician-fee-freeze=y,mx-missile=n,Class=republican}
+Support = 0.305747: {physician-fee-freeze=y,synfuels-corporation-cutback=n,crime=y}
+Support = 0.310345: {physician-fee-freeze=y,synfuels-corporation-cutback=n,Class=republican}
+Support = 0.312644: {physician-fee-freeze=y,education-spending=y,crime=y}
+Support = 0.308046: {physician-fee-freeze=y,education-spending=y,Class=republican}
+Support = 0.31954: {physician-fee-freeze=y,superfund-right-to-sue=y,crime=y}
+Support = 0.310345: {physician-fee-freeze=y,superfund-right-to-sue=y,Class=republican}
+Support = 0.333333: {physician-fee-freeze=y,crime=y,duty-free-exports=n}
+Support = 0.356322: {physician-fee-freeze=y,crime=y,Class=republican}
+Support = 0.321839: {physician-fee-freeze=y,duty-free-exports=n,Class=republican}
+Support = 0.312644: {el-salvador-aid=n,religious-groups-in-schools=n,aid-to-nicaraguan-contras=y}
+Support = 0.303448: {el-salvador-aid=n,religious-groups-in-schools=n,Class=democrat}
+Support = 0.422989: {el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y}
+Support = 0.377012: {el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y}
+Support = 0.374713: {el-salvador-aid=n,anti-satellite-test-ban=y,education-spending=n}
+Support = 0.347126: {el-salvador-aid=n,anti-satellite-test-ban=y,superfund-right-to-sue=n}
+Support = 0.324138: {el-salvador-aid=n,anti-satellite-test-ban=y,crime=n}
+Support = 0.303448: {el-salvador-aid=n,anti-satellite-test-ban=y,export-administration-act-south-africa=y}
+Support = 0.418391: {el-salvador-aid=n,anti-satellite-test-ban=y,Class=democrat}
+Support = 0.402299: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y}
+Support = 0.4: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n}
+Support = 0.367816: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}
+Support = 0.344828: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,crime=n}
+Support = 0.317241: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,duty-free-exports=y}
+Support = 0.324138: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,export-administration-act-south-africa=y}
+Support = 0.452874: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,Class=democrat}
+Support = 0.36092: {el-salvador-aid=n,mx-missile=y,education-spending=n}
+Support = 0.321839: {el-salvador-aid=n,mx-missile=y,superfund-right-to-sue=n}
+Support = 0.305747: {el-salvador-aid=n,mx-missile=y,crime=n}
+Support = 0.393103: {el-salvador-aid=n,mx-missile=y,Class=democrat}
+Support = 0.326437: {el-salvador-aid=n,education-spending=n,superfund-right-to-sue=n}
+Support = 0.314943: {el-salvador-aid=n,education-spending=n,crime=n}
+Support = 0.395402: {el-salvador-aid=n,education-spending=n,Class=democrat}
+Support = 0.363218: {el-salvador-aid=n,superfund-right-to-sue=n,Class=democrat}
+Support = 0.349425: {el-salvador-aid=n,crime=n,Class=democrat}
+Support = 0.31954: {el-salvador-aid=n,duty-free-exports=y,Class=democrat}
+Support = 0.317241: {el-salvador-aid=n,export-administration-act-south-africa=y,Class=democrat}
+Support = 0.358621: {el-salvador-aid=y,religious-groups-in-schools=y,anti-satellite-test-ban=n}
+Support = 0.370115: {el-salvador-aid=y,religious-groups-in-schools=y,aid-to-nicaraguan-contras=n}
+Support = 0.4: {el-salvador-aid=y,religious-groups-in-schools=y,mx-missile=n}
+Support = 0.305747: {el-salvador-aid=y,religious-groups-in-schools=y,synfuels-corporation-cutback=n}
+Support = 0.324138: {el-salvador-aid=y,religious-groups-in-schools=y,education-spending=y}
+Support = 0.367816: {el-salvador-aid=y,religious-groups-in-schools=y,superfund-right-to-sue=y}
+Support = 0.413793: {el-salvador-aid=y,religious-groups-in-schools=y,crime=y}
+Support = 0.370115: {el-salvador-aid=y,religious-groups-in-schools=y,duty-free-exports=n}
+Support = 0.333333: {el-salvador-aid=y,religious-groups-in-schools=y,Class=republican}
+Support = 0.335632: {el-salvador-aid=y,anti-satellite-test-ban=n,aid-to-nicaraguan-contras=n}
+Support = 0.344828: {el-salvador-aid=y,anti-satellite-test-ban=n,mx-missile=n}
+Support = 0.317241: {el-salvador-aid=y,anti-satellite-test-ban=n,superfund-right-to-sue=y}
+Support = 0.344828: {el-salvador-aid=y,anti-satellite-test-ban=n,crime=y}
+Support = 0.324138: {el-salvador-aid=y,anti-satellite-test-ban=n,duty-free-exports=n}
+Support = 0.363218: {el-salvador-aid=y,aid-to-nicaraguan-contras=n,mx-missile=n}
+Support = 0.335632: {el-salvador-aid=y,aid-to-nicaraguan-contras=n,superfund-right-to-sue=y}
+Support = 0.377012: {el-salvador-aid=y,aid-to-nicaraguan-contras=n,crime=y}
+Support = 0.34023: {el-salvador-aid=y,aid-to-nicaraguan-contras=n,duty-free-exports=n}
+Support = 0.303448: {el-salvador-aid=y,aid-to-nicaraguan-contras=n,Class=republican}
+Support = 0.314943: {el-salvador-aid=y,mx-missile=n,education-spending=y}
+Support = 0.342529: {el-salvador-aid=y,mx-missile=n,superfund-right-to-sue=y}
+Support = 0.386207: {el-salvador-aid=y,mx-missile=n,crime=y}
+Support = 0.347126: {el-salvador-aid=y,mx-missile=n,duty-free-exports=n}
+Support = 0.333333: {el-salvador-aid=y,mx-missile=n,Class=republican}
+Support = 0.317241: {el-salvador-aid=y,synfuels-corporation-cutback=n,crime=y}
+Support = 0.301149: {el-salvador-aid=y,education-spending=y,superfund-right-to-sue=y}
+Support = 0.331034: {el-salvador-aid=y,education-spending=y,crime=y}
+Support = 0.301149: {el-salvador-aid=y,education-spending=y,duty-free-exports=n}
+Support = 0.301149: {el-salvador-aid=y,education-spending=y,Class=republican}
+Support = 0.372414: {el-salvador-aid=y,superfund-right-to-sue=y,crime=y}
+Support = 0.335632: {el-salvador-aid=y,superfund-right-to-sue=y,duty-free-exports=n}
+Support = 0.303448: {el-salvador-aid=y,superfund-right-to-sue=y,Class=republican}
+Support = 0.372414: {el-salvador-aid=y,crime=y,duty-free-exports=n}
+Support = 0.342529: {el-salvador-aid=y,crime=y,Class=republican}
+Support = 0.310345: {el-salvador-aid=y,duty-free-exports=n,Class=republican}
+Support = 0.308046: {religious-groups-in-schools=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y}
+Support = 0.308046: {religious-groups-in-schools=n,aid-to-nicaraguan-contras=y,Class=democrat}
+Support = 0.328736: {religious-groups-in-schools=y,anti-satellite-test-ban=n,aid-to-nicaraguan-contras=n}
+Support = 0.342529: {religious-groups-in-schools=y,anti-satellite-test-ban=n,mx-missile=n}
+Support = 0.328736: {religious-groups-in-schools=y,anti-satellite-test-ban=n,superfund-right-to-sue=y}
+Support = 0.342529: {religious-groups-in-schools=y,anti-satellite-test-ban=n,crime=y}
+Support = 0.331034: {religious-groups-in-schools=y,anti-satellite-test-ban=n,duty-free-exports=n}
+Support = 0.351724: {religious-groups-in-schools=y,aid-to-nicaraguan-contras=n,mx-missile=n}
+Support = 0.326437: {religious-groups-in-schools=y,aid-to-nicaraguan-contras=n,superfund-right-to-sue=y}
+Support = 0.358621: {religious-groups-in-schools=y,aid-to-nicaraguan-contras=n,crime=y}
+Support = 0.331034: {religious-groups-in-schools=y,aid-to-nicaraguan-contras=n,duty-free-exports=n}
+Support = 0.310345: {religious-groups-in-schools=y,mx-missile=n,education-spending=y}
+Support = 0.342529: {religious-groups-in-schools=y,mx-missile=n,superfund-right-to-sue=y}
+Support = 0.381609: {religious-groups-in-schools=y,mx-missile=n,crime=y}
+Support = 0.351724: {religious-groups-in-schools=y,mx-missile=n,duty-free-exports=n}
+Support = 0.317241: {religious-groups-in-schools=y,mx-missile=n,Class=republican}
+Support = 0.328736: {religious-groups-in-schools=y,synfuels-corporation-cutback=n,crime=y}
+Support = 0.303448: {religious-groups-in-schools=y,education-spending=y,superfund-right-to-sue=y}
+Support = 0.34023: {religious-groups-in-schools=y,education-spending=y,crime=y}
+Support = 0.314943: {religious-groups-in-schools=y,education-spending=y,duty-free-exports=n}
+Support = 0.381609: {religious-groups-in-schools=y,superfund-right-to-sue=y,crime=y}
+Support = 0.354023: {religious-groups-in-schools=y,superfund-right-to-sue=y,duty-free-exports=n}
+Support = 0.390805: {religious-groups-in-schools=y,crime=y,duty-free-exports=n}
+Support = 0.321839: {religious-groups-in-schools=y,crime=y,Class=republican}
+Support = 0.326437: {anti-satellite-test-ban=n,aid-to-nicaraguan-contras=n,mx-missile=n}
+Support = 0.301149: {anti-satellite-test-ban=n,aid-to-nicaraguan-contras=n,superfund-right-to-sue=y}
+Support = 0.321839: {anti-satellite-test-ban=n,aid-to-nicaraguan-contras=n,crime=y}
+Support = 0.303448: {anti-satellite-test-ban=n,aid-to-nicaraguan-contras=n,duty-free-exports=n}
+Support = 0.308046: {anti-satellite-test-ban=n,mx-missile=n,superfund-right-to-sue=y}
+Support = 0.326437: {anti-satellite-test-ban=n,mx-missile=n,crime=y}
+Support = 0.312644: {anti-satellite-test-ban=n,mx-missile=n,duty-free-exports=n}
+Support = 0.314943: {anti-satellite-test-ban=n,superfund-right-to-sue=y,crime=y}
+Support = 0.312644: {anti-satellite-test-ban=n,crime=y,duty-free-exports=n}
+Support = 0.397701: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y}
+Support = 0.390805: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n}
+Support = 0.367816: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}
+Support = 0.331034: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}
+Support = 0.310345: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,duty-free-exports=y}
+Support = 0.337931: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,export-administration-act-south-africa=y}
+Support = 0.434483: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,Class=democrat}
+Support = 0.351724: {anti-satellite-test-ban=y,mx-missile=y,education-spending=n}
+Support = 0.31954: {anti-satellite-test-ban=y,mx-missile=y,superfund-right-to-sue=n}
+Support = 0.303448: {anti-satellite-test-ban=y,mx-missile=y,export-administration-act-south-africa=y}
+Support = 0.383908: {anti-satellite-test-ban=y,mx-missile=y,Class=democrat}
+Support = 0.333333: {anti-satellite-test-ban=y,education-spending=n,superfund-right-to-sue=n}
+Support = 0.305747: {anti-satellite-test-ban=y,education-spending=n,crime=n}
+Support = 0.395402: {anti-satellite-test-ban=y,education-spending=n,Class=democrat}
+Support = 0.36092: {anti-satellite-test-ban=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.34023: {anti-satellite-test-ban=y,crime=n,Class=democrat}
+Support = 0.310345: {anti-satellite-test-ban=y,duty-free-exports=y,Class=democrat}
+Support = 0.314943: {anti-satellite-test-ban=y,export-administration-act-south-africa=y,Class=democrat}
+Support = 0.317241: {aid-to-nicaraguan-contras=n,mx-missile=n,superfund-right-to-sue=y}
+Support = 0.349425: {aid-to-nicaraguan-contras=n,mx-missile=n,crime=y}
+Support = 0.326437: {aid-to-nicaraguan-contras=n,mx-missile=n,duty-free-exports=n}
+Support = 0.326437: {aid-to-nicaraguan-contras=n,superfund-right-to-sue=y,crime=y}
+Support = 0.308046: {aid-to-nicaraguan-contras=n,superfund-right-to-sue=y,duty-free-exports=n}
+Support = 0.331034: {aid-to-nicaraguan-contras=n,crime=y,duty-free-exports=n}
+Support = 0.372414: {aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n}
+Support = 0.333333: {aid-to-nicaraguan-contras=y,mx-missile=y,superfund-right-to-sue=n}
+Support = 0.308046: {aid-to-nicaraguan-contras=y,mx-missile=y,crime=n}
+Support = 0.314943: {aid-to-nicaraguan-contras=y,mx-missile=y,export-administration-act-south-africa=y}
+Support = 0.411494: {aid-to-nicaraguan-contras=y,mx-missile=y,Class=democrat}
+Support = 0.344828: {aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n}
+Support = 0.326437: {aid-to-nicaraguan-contras=y,education-spending=n,crime=n}
+Support = 0.308046: {aid-to-nicaraguan-contras=y,education-spending=n,export-administration-act-south-africa=y}
+Support = 0.427586: {aid-to-nicaraguan-contras=y,education-spending=n,Class=democrat}
+Support = 0.301149: {aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,crime=n}
+Support = 0.383908: {aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.365517: {aid-to-nicaraguan-contras=y,crime=n,Class=democrat}
+Support = 0.333333: {aid-to-nicaraguan-contras=y,duty-free-exports=y,Class=democrat}
+Support = 0.337931: {aid-to-nicaraguan-contras=y,export-administration-act-south-africa=y,Class=democrat}
+Support = 0.310345: {mx-missile=n,education-spending=y,crime=y}
+Support = 0.333333: {mx-missile=n,superfund-right-to-sue=y,crime=y}
+Support = 0.310345: {mx-missile=n,superfund-right-to-sue=y,duty-free-exports=n}
+Support = 0.342529: {mx-missile=n,crime=y,duty-free-exports=n}
+Support = 0.317241: {mx-missile=n,crime=y,Class=republican}
+Support = 0.303448: {mx-missile=y,education-spending=n,superfund-right-to-sue=n}
+Support = 0.377012: {mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.328736: {mx-missile=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.312644: {mx-missile=y,crime=n,Class=democrat}
+Support = 0.303448: {synfuels-corporation-cutback=n,crime=y,Class=republican}
+Support = 0.351724: {education-spending=n,superfund-right-to-sue=n,Class=democrat}
+Support = 0.344828: {education-spending=n,crime=n,Class=democrat}
+Support = 0.312644: {education-spending=n,duty-free-exports=y,Class=democrat}
+Support = 0.326437: {education-spending=n,export-administration-act-south-africa=y,Class=democrat}
+Support = 0.305747: {education-spending=y,superfund-right-to-sue=y,crime=y}
+Support = 0.310345: {education-spending=y,crime=y,duty-free-exports=n}
+Support = 0.312644: {superfund-right-to-sue=n,crime=n,Class=democrat}
+Support = 0.349425: {superfund-right-to-sue=y,crime=y,duty-free-exports=n}
+Support = 0.312644: {crime=y,duty-free-exports=n,Class=republican}
+Support = 0.310345: {handicapped-infants=n,el-salvador-aid=y,religious-groups-in-schools=y,mx-missile=n}
+Support = 0.31954: {handicapped-infants=y,adoption-of-the-budget-resolution=y,physician-fee-freeze=n,Class=democrat}
+Support = 0.303448: {handicapped-infants=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,Class=democrat}
+Support = 0.301149: {adoption-of-the-budget-resolution=n,physician-fee-freeze=y,el-salvador-aid=y,religious-groups-in-schools=y}
+Support = 0.308046: {adoption-of-the-budget-resolution=n,physician-fee-freeze=y,el-salvador-aid=y,mx-missile=n}
+Support = 0.308046: {adoption-of-the-budget-resolution=n,physician-fee-freeze=y,el-salvador-aid=y,crime=y}
+Support = 0.314943: {adoption-of-the-budget-resolution=n,physician-fee-freeze=y,el-salvador-aid=y,Class=republican}
+Support = 0.301149: {adoption-of-the-budget-resolution=n,physician-fee-freeze=y,mx-missile=n,Class=republican}
+Support = 0.305747: {adoption-of-the-budget-resolution=n,physician-fee-freeze=y,crime=y,Class=republican}
+Support = 0.312644: {adoption-of-the-budget-resolution=n,el-salvador-aid=y,religious-groups-in-schools=y,mx-missile=n}
+Support = 0.310345: {adoption-of-the-budget-resolution=n,el-salvador-aid=y,religious-groups-in-schools=y,crime=y}
+Support = 0.305747: {adoption-of-the-budget-resolution=n,el-salvador-aid=y,aid-to-nicaraguan-contras=n,mx-missile=n}
+Support = 0.303448: {adoption-of-the-budget-resolution=n,el-salvador-aid=y,aid-to-nicaraguan-contras=n,crime=y}
+Support = 0.314943: {adoption-of-the-budget-resolution=n,el-salvador-aid=y,mx-missile=n,crime=y}
+Support = 0.301149: {adoption-of-the-budget-resolution=n,el-salvador-aid=y,mx-missile=n,Class=republican}
+Support = 0.301149: {adoption-of-the-budget-resolution=n,el-salvador-aid=y,crime=y,Class=republican}
+Support = 0.301149: {adoption-of-the-budget-resolution=n,religious-groups-in-schools=y,mx-missile=n,crime=y}
+Support = 0.381609: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y}
+Support = 0.411494: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y}
+Support = 0.354023: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y}
+Support = 0.358621: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,education-spending=n}
+Support = 0.335632: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,superfund-right-to-sue=n}
+Support = 0.326437: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,crime=n}
+Support = 0.416092: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,Class=democrat}
+Support = 0.4: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y}
+Support = 0.349425: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,mx-missile=y}
+Support = 0.358621: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,education-spending=n}
+Support = 0.335632: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,superfund-right-to-sue=n}
+Support = 0.321839: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,crime=n}
+Support = 0.418391: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,Class=democrat}
+Support = 0.372414: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,mx-missile=y}
+Support = 0.390805: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,education-spending=n}
+Support = 0.358621: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}
+Support = 0.344828: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,crime=n}
+Support = 0.301149: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,duty-free-exports=y}
+Support = 0.305747: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,export-administration-act-south-africa=y}
+Support = 0.455172: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,Class=democrat}
+Support = 0.34023: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,mx-missile=y,education-spending=n}
+Support = 0.305747: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,mx-missile=y,superfund-right-to-sue=n}
+Support = 0.383908: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,mx-missile=y,Class=democrat}
+Support = 0.321839: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,education-spending=n,crime=n}
+Support = 0.427586: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,education-spending=n,Class=democrat}
+Support = 0.372414: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,superfund-right-to-sue=n,Class=democrat}
+Support = 0.358621: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,crime=n,Class=democrat}
+Support = 0.321839: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,duty-free-exports=y,Class=democrat}
+Support = 0.337931: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,export-administration-act-south-africa=y,Class=democrat}
+Support = 0.388506: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y}
+Support = 0.34023: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y}
+Support = 0.34023: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,education-spending=n}
+Support = 0.321839: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,superfund-right-to-sue=n}
+Support = 0.308046: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,crime=n}
+Support = 0.386207: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,Class=democrat}
+Support = 0.363218: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y}
+Support = 0.365517: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n}
+Support = 0.342529: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}
+Support = 0.326437: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,aid-to-nicaraguan-contras=y,crime=n}
+Support = 0.418391: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,aid-to-nicaraguan-contras=y,Class=democrat}
+Support = 0.326437: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,mx-missile=y,education-spending=n}
+Support = 0.358621: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,mx-missile=y,Class=democrat}
+Support = 0.363218: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,education-spending=n,Class=democrat}
+Support = 0.337931: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,superfund-right-to-sue=n,Class=democrat}
+Support = 0.331034: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,crime=n,Class=democrat}
+Support = 0.356322: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y}
+Support = 0.358621: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n}
+Support = 0.344828: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}
+Support = 0.317241: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}
+Support = 0.404598: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,Class=democrat}
+Support = 0.317241: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,mx-missile=y,education-spending=n}
+Support = 0.354023: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,mx-missile=y,Class=democrat}
+Support = 0.363218: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,education-spending=n,Class=democrat}
+Support = 0.335632: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.324138: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,crime=n,Class=democrat}
+Support = 0.34023: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n}
+Support = 0.310345: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,mx-missile=y,superfund-right-to-sue=n}
+Support = 0.37931: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,mx-missile=y,Class=democrat}
+Support = 0.31954: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n}
+Support = 0.310345: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,education-spending=n,crime=n}
+Support = 0.397701: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,education-spending=n,Class=democrat}
+Support = 0.36092: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.349425: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,crime=n,Class=democrat}
+Support = 0.305747: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,duty-free-exports=y,Class=democrat}
+Support = 0.317241: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,export-administration-act-south-africa=y,Class=democrat}
+Support = 0.347126: {adoption-of-the-budget-resolution=y,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.305747: {adoption-of-the-budget-resolution=y,mx-missile=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.321839: {adoption-of-the-budget-resolution=y,education-spending=n,superfund-right-to-sue=n,Class=democrat}
+Support = 0.324138: {adoption-of-the-budget-resolution=y,education-spending=n,crime=n,Class=democrat}
+Support = 0.402299: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y}
+Support = 0.354023: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y}
+Support = 0.356322: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,education-spending=n}
+Support = 0.337931: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,superfund-right-to-sue=n}
+Support = 0.31954: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,crime=n}
+Support = 0.406897: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,Class=democrat}
+Support = 0.377012: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y}
+Support = 0.37931: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n}
+Support = 0.354023: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}
+Support = 0.335632: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,crime=n}
+Support = 0.305747: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,duty-free-exports=y}
+Support = 0.303448: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,export-administration-act-south-africa=y}
+Support = 0.43908: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,Class=democrat}
+Support = 0.34023: {physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y,education-spending=n}
+Support = 0.310345: {physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y,superfund-right-to-sue=n}
+Support = 0.381609: {physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y,Class=democrat}
+Support = 0.310345: {physician-fee-freeze=n,el-salvador-aid=n,education-spending=n,crime=n}
+Support = 0.383908: {physician-fee-freeze=n,el-salvador-aid=n,education-spending=n,Class=democrat}
+Support = 0.358621: {physician-fee-freeze=n,el-salvador-aid=n,superfund-right-to-sue=n,Class=democrat}
+Support = 0.342529: {physician-fee-freeze=n,el-salvador-aid=n,crime=n,Class=democrat}
+Support = 0.312644: {physician-fee-freeze=n,el-salvador-aid=n,duty-free-exports=y,Class=democrat}
+Support = 0.308046: {physician-fee-freeze=n,el-salvador-aid=n,export-administration-act-south-africa=y,Class=democrat}
+Support = 0.303448: {physician-fee-freeze=n,religious-groups-in-schools=n,aid-to-nicaraguan-contras=y,Class=democrat}
+Support = 0.363218: {physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y}
+Support = 0.365517: {physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n}
+Support = 0.349425: {physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}
+Support = 0.326437: {physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}
+Support = 0.422989: {physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,Class=democrat}
+Support = 0.328736: {physician-fee-freeze=n,anti-satellite-test-ban=y,mx-missile=y,education-spending=n}
+Support = 0.308046: {physician-fee-freeze=n,anti-satellite-test-ban=y,mx-missile=y,superfund-right-to-sue=n}
+Support = 0.372414: {physician-fee-freeze=n,anti-satellite-test-ban=y,mx-missile=y,Class=democrat}
+Support = 0.314943: {physician-fee-freeze=n,anti-satellite-test-ban=y,education-spending=n,superfund-right-to-sue=n}
+Support = 0.301149: {physician-fee-freeze=n,anti-satellite-test-ban=y,education-spending=n,crime=n}
+Support = 0.383908: {physician-fee-freeze=n,anti-satellite-test-ban=y,education-spending=n,Class=democrat}
+Support = 0.358621: {physician-fee-freeze=n,anti-satellite-test-ban=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.335632: {physician-fee-freeze=n,anti-satellite-test-ban=y,crime=n,Class=democrat}
+Support = 0.305747: {physician-fee-freeze=n,anti-satellite-test-ban=y,duty-free-exports=y,Class=democrat}
+Support = 0.308046: {physician-fee-freeze=n,anti-satellite-test-ban=y,export-administration-act-south-africa=y,Class=democrat}
+Support = 0.351724: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n}
+Support = 0.321839: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,mx-missile=y,superfund-right-to-sue=n}
+Support = 0.301149: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,mx-missile=y,crime=n}
+Support = 0.397701: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,mx-missile=y,Class=democrat}
+Support = 0.331034: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n}
+Support = 0.321839: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,education-spending=n,crime=n}
+Support = 0.413793: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,education-spending=n,Class=democrat}
+Support = 0.37931: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.358621: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,crime=n,Class=democrat}
+Support = 0.326437: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,duty-free-exports=y,Class=democrat}
+Support = 0.324138: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,export-administration-act-south-africa=y,Class=democrat}
+Support = 0.363218: {physician-fee-freeze=n,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.326437: {physician-fee-freeze=n,mx-missile=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.308046: {physician-fee-freeze=n,mx-missile=y,crime=n,Class=democrat}
+Support = 0.349425: {physician-fee-freeze=n,education-spending=n,superfund-right-to-sue=n,Class=democrat}
+Support = 0.337931: {physician-fee-freeze=n,education-spending=n,crime=n,Class=democrat}
+Support = 0.303448: {physician-fee-freeze=n,education-spending=n,duty-free-exports=y,Class=democrat}
+Support = 0.312644: {physician-fee-freeze=n,education-spending=n,export-administration-act-south-africa=y,Class=democrat}
+Support = 0.310345: {physician-fee-freeze=n,superfund-right-to-sue=n,crime=n,Class=democrat}
+Support = 0.305747: {physician-fee-freeze=y,el-salvador-aid=y,religious-groups-in-schools=y,aid-to-nicaraguan-contras=n}
+Support = 0.333333: {physician-fee-freeze=y,el-salvador-aid=y,religious-groups-in-schools=y,mx-missile=n}
+Support = 0.305747: {physician-fee-freeze=y,el-salvador-aid=y,religious-groups-in-schools=y,superfund-right-to-sue=y}
+Support = 0.34023: {physician-fee-freeze=y,el-salvador-aid=y,religious-groups-in-schools=y,crime=y}
+Support = 0.310345: {physician-fee-freeze=y,el-salvador-aid=y,religious-groups-in-schools=y,duty-free-exports=n}
+Support = 0.331034: {physician-fee-freeze=y,el-salvador-aid=y,religious-groups-in-schools=y,Class=republican}
+Support = 0.310345: {physician-fee-freeze=y,el-salvador-aid=y,aid-to-nicaraguan-contras=n,mx-missile=n}
+Support = 0.314943: {physician-fee-freeze=y,el-salvador-aid=y,aid-to-nicaraguan-contras=n,crime=y}
+Support = 0.301149: {physician-fee-freeze=y,el-salvador-aid=y,aid-to-nicaraguan-contras=n,Class=republican}
+Support = 0.333333: {physician-fee-freeze=y,el-salvador-aid=y,mx-missile=n,crime=y}
+Support = 0.303448: {physician-fee-freeze=y,el-salvador-aid=y,mx-missile=n,duty-free-exports=n}
+Support = 0.331034: {physician-fee-freeze=y,el-salvador-aid=y,mx-missile=n,Class=republican}
+Support = 0.305747: {physician-fee-freeze=y,el-salvador-aid=y,education-spending=y,crime=y}
+Support = 0.301149: {physician-fee-freeze=y,el-salvador-aid=y,education-spending=y,Class=republican}
+Support = 0.312644: {physician-fee-freeze=y,el-salvador-aid=y,superfund-right-to-sue=y,crime=y}
+Support = 0.303448: {physician-fee-freeze=y,el-salvador-aid=y,superfund-right-to-sue=y,Class=republican}
+Support = 0.31954: {physician-fee-freeze=y,el-salvador-aid=y,crime=y,duty-free-exports=n}
+Support = 0.34023: {physician-fee-freeze=y,el-salvador-aid=y,crime=y,Class=republican}
+Support = 0.310345: {physician-fee-freeze=y,el-salvador-aid=y,duty-free-exports=n,Class=republican}
+Support = 0.317241: {physician-fee-freeze=y,religious-groups-in-schools=y,mx-missile=n,crime=y}
+Support = 0.314943: {physician-fee-freeze=y,religious-groups-in-schools=y,mx-missile=n,Class=republican}
+Support = 0.305747: {physician-fee-freeze=y,religious-groups-in-schools=y,crime=y,duty-free-exports=n}
+Support = 0.31954: {physician-fee-freeze=y,religious-groups-in-schools=y,crime=y,Class=republican}
+Support = 0.301149: {physician-fee-freeze=y,aid-to-nicaraguan-contras=n,mx-missile=n,crime=y}
+Support = 0.314943: {physician-fee-freeze=y,mx-missile=n,crime=y,Class=republican}
+Support = 0.310345: {physician-fee-freeze=y,crime=y,duty-free-exports=n,Class=republican}
+Support = 0.301149: {el-salvador-aid=n,religious-groups-in-schools=n,aid-to-nicaraguan-contras=y,Class=democrat}
+Support = 0.367816: {el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y}
+Support = 0.367816: {el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n}
+Support = 0.34023: {el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}
+Support = 0.317241: {el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}
+Support = 0.411494: {el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,Class=democrat}
+Support = 0.331034: {el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y,education-spending=n}
+Support = 0.303448: {el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y,superfund-right-to-sue=n}
+Support = 0.363218: {el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y,Class=democrat}
+Support = 0.305747: {el-salvador-aid=n,anti-satellite-test-ban=y,education-spending=n,superfund-right-to-sue=n}
+Support = 0.365517: {el-salvador-aid=n,anti-satellite-test-ban=y,education-spending=n,Class=democrat}
+Support = 0.337931: {el-salvador-aid=n,anti-satellite-test-ban=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.324138: {el-salvador-aid=n,anti-satellite-test-ban=y,crime=n,Class=democrat}
+Support = 0.354023: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n}
+Support = 0.314943: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y,superfund-right-to-sue=n}
+Support = 0.386207: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y,Class=democrat}
+Support = 0.31954: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n}
+Support = 0.308046: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n,crime=n}
+Support = 0.388506: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n,Class=democrat}
+Support = 0.356322: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.342529: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,crime=n,Class=democrat}
+Support = 0.312644: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,duty-free-exports=y,Class=democrat}
+Support = 0.310345: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,export-administration-act-south-africa=y,Class=democrat}
+Support = 0.349425: {el-salvador-aid=n,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.310345: {el-salvador-aid=n,mx-missile=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.303448: {el-salvador-aid=n,mx-missile=y,crime=n,Class=democrat}
+Support = 0.317241: {el-salvador-aid=n,education-spending=n,superfund-right-to-sue=n,Class=democrat}
+Support = 0.314943: {el-salvador-aid=n,education-spending=n,crime=n,Class=democrat}
+Support = 0.321839: {el-salvador-aid=y,religious-groups-in-schools=y,anti-satellite-test-ban=n,aid-to-nicaraguan-contras=n}
+Support = 0.331034: {el-salvador-aid=y,religious-groups-in-schools=y,anti-satellite-test-ban=n,mx-missile=n}
+Support = 0.308046: {el-salvador-aid=y,religious-groups-in-schools=y,anti-satellite-test-ban=n,superfund-right-to-sue=y}
+Support = 0.331034: {el-salvador-aid=y,religious-groups-in-schools=y,anti-satellite-test-ban=n,crime=y}
+Support = 0.312644: {el-salvador-aid=y,religious-groups-in-schools=y,anti-satellite-test-ban=n,duty-free-exports=n}
+Support = 0.342529: {el-salvador-aid=y,religious-groups-in-schools=y,aid-to-nicaraguan-contras=n,mx-missile=n}
+Support = 0.31954: {el-salvador-aid=y,religious-groups-in-schools=y,aid-to-nicaraguan-contras=n,superfund-right-to-sue=y}
+Support = 0.354023: {el-salvador-aid=y,religious-groups-in-schools=y,aid-to-nicaraguan-contras=n,crime=y}
+Support = 0.321839: {el-salvador-aid=y,religious-groups-in-schools=y,aid-to-nicaraguan-contras=n,duty-free-exports=n}
+Support = 0.301149: {el-salvador-aid=y,religious-groups-in-schools=y,mx-missile=n,education-spending=y}
+Support = 0.326437: {el-salvador-aid=y,religious-groups-in-schools=y,mx-missile=n,superfund-right-to-sue=y}
+Support = 0.365517: {el-salvador-aid=y,religious-groups-in-schools=y,mx-missile=n,crime=y}
+Support = 0.333333: {el-salvador-aid=y,religious-groups-in-schools=y,mx-missile=n,duty-free-exports=n}
+Support = 0.314943: {el-salvador-aid=y,religious-groups-in-schools=y,mx-missile=n,Class=republican}
+Support = 0.312644: {el-salvador-aid=y,religious-groups-in-schools=y,education-spending=y,crime=y}
+Support = 0.317241: {el-salvador-aid=y,religious-groups-in-schools=y,superfund-right-to-sue=y,duty-free-exports=n}
+Support = 0.349425: {el-salvador-aid=y,religious-groups-in-schools=y,crime=y,duty-free-exports=n}
+Support = 0.314943: {el-salvador-aid=y,religious-groups-in-schools=y,crime=y,Class=republican}
+Support = 0.31954: {el-salvador-aid=y,anti-satellite-test-ban=n,aid-to-nicaraguan-contras=n,mx-missile=n}
+Support = 0.31954: {el-salvador-aid=y,anti-satellite-test-ban=n,aid-to-nicaraguan-contras=n,crime=y}
+Support = 0.321839: {el-salvador-aid=y,anti-satellite-test-ban=n,mx-missile=n,crime=y}
+Support = 0.303448: {el-salvador-aid=y,anti-satellite-test-ban=n,mx-missile=n,duty-free-exports=n}
+Support = 0.305747: {el-salvador-aid=y,anti-satellite-test-ban=n,superfund-right-to-sue=y,crime=y}
+Support = 0.303448: {el-salvador-aid=y,anti-satellite-test-ban=n,crime=y,duty-free-exports=n}
+Support = 0.310345: {el-salvador-aid=y,aid-to-nicaraguan-contras=n,mx-missile=n,superfund-right-to-sue=y}
+Support = 0.344828: {el-salvador-aid=y,aid-to-nicaraguan-contras=n,mx-missile=n,crime=y}
+Support = 0.317241: {el-salvador-aid=y,aid-to-nicaraguan-contras=n,mx-missile=n,duty-free-exports=n}
+Support = 0.324138: {el-salvador-aid=y,aid-to-nicaraguan-contras=n,superfund-right-to-sue=y,crime=y}
+Support = 0.301149: {el-salvador-aid=y,aid-to-nicaraguan-contras=n,superfund-right-to-sue=y,duty-free-exports=n}
+Support = 0.326437: {el-salvador-aid=y,aid-to-nicaraguan-contras=n,crime=y,duty-free-exports=n}
+Support = 0.303448: {el-salvador-aid=y,mx-missile=n,education-spending=y,crime=y}
+Support = 0.324138: {el-salvador-aid=y,mx-missile=n,superfund-right-to-sue=y,crime=y}
+Support = 0.328736: {el-salvador-aid=y,mx-missile=n,crime=y,duty-free-exports=n}
+Support = 0.314943: {el-salvador-aid=y,mx-missile=n,crime=y,Class=republican}
+Support = 0.326437: {el-salvador-aid=y,superfund-right-to-sue=y,crime=y,duty-free-exports=n}
+Support = 0.312644: {religious-groups-in-schools=y,anti-satellite-test-ban=n,aid-to-nicaraguan-contras=n,mx-missile=n}
+Support = 0.308046: {religious-groups-in-schools=y,anti-satellite-test-ban=n,aid-to-nicaraguan-contras=n,crime=y}
+Support = 0.312644: {religious-groups-in-schools=y,anti-satellite-test-ban=n,mx-missile=n,crime=y}
+Support = 0.301149: {religious-groups-in-schools=y,anti-satellite-test-ban=n,mx-missile=n,duty-free-exports=n}
+Support = 0.305747: {religious-groups-in-schools=y,anti-satellite-test-ban=n,superfund-right-to-sue=y,crime=y}
+Support = 0.301149: {religious-groups-in-schools=y,anti-satellite-test-ban=n,crime=y,duty-free-exports=n}
+Support = 0.303448: {religious-groups-in-schools=y,aid-to-nicaraguan-contras=n,mx-missile=n,superfund-right-to-sue=y}
+Support = 0.331034: {religious-groups-in-schools=y,aid-to-nicaraguan-contras=n,mx-missile=n,crime=y}
+Support = 0.312644: {religious-groups-in-schools=y,aid-to-nicaraguan-contras=n,mx-missile=n,duty-free-exports=n}
+Support = 0.312644: {religious-groups-in-schools=y,aid-to-nicaraguan-contras=n,superfund-right-to-sue=y,crime=y}
+Support = 0.312644: {religious-groups-in-schools=y,aid-to-nicaraguan-contras=n,crime=y,duty-free-exports=n}
+Support = 0.31954: {religious-groups-in-schools=y,mx-missile=n,superfund-right-to-sue=y,crime=y}
+Support = 0.326437: {religious-groups-in-schools=y,mx-missile=n,crime=y,duty-free-exports=n}
+Support = 0.328736: {religious-groups-in-schools=y,superfund-right-to-sue=y,crime=y,duty-free-exports=n}
+Support = 0.305747: {anti-satellite-test-ban=n,aid-to-nicaraguan-contras=n,mx-missile=n,crime=y}
+Support = 0.335632: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n}
+Support = 0.310345: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,superfund-right-to-sue=n}
+Support = 0.372414: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,Class=democrat}
+Support = 0.314943: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n}
+Support = 0.374713: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n,Class=democrat}
+Support = 0.349425: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.331034: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n,Class=democrat}
+Support = 0.337931: {anti-satellite-test-ban=y,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.308046: {anti-satellite-test-ban=y,mx-missile=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.314943: {anti-satellite-test-ban=y,education-spending=n,superfund-right-to-sue=n,Class=democrat}
+Support = 0.305747: {anti-satellite-test-ban=y,education-spending=n,crime=n,Class=democrat}
+Support = 0.301149: {aid-to-nicaraguan-contras=n,mx-missile=n,superfund-right-to-sue=y,crime=y}
+Support = 0.308046: {aid-to-nicaraguan-contras=n,mx-missile=n,crime=y,duty-free-exports=n}
+Support = 0.36092: {aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.321839: {aid-to-nicaraguan-contras=y,mx-missile=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.305747: {aid-to-nicaraguan-contras=y,mx-missile=y,crime=n,Class=democrat}
+Support = 0.331034: {aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n,Class=democrat}
+Support = 0.326437: {aid-to-nicaraguan-contras=y,education-spending=n,crime=n,Class=democrat}
+Support = 0.301149: {aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,crime=n,Class=democrat}
+Support = 0.377012: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y}
+Support = 0.328736: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y}
+Support = 0.331034: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,education-spending=n}
+Support = 0.314943: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,superfund-right-to-sue=n}
+Support = 0.305747: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,crime=n}
+Support = 0.381609: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,Class=democrat}
+Support = 0.349425: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y}
+Support = 0.354023: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n}
+Support = 0.331034: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}
+Support = 0.321839: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,crime=n}
+Support = 0.411494: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,Class=democrat}
+Support = 0.314943: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y,education-spending=n}
+Support = 0.354023: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y,Class=democrat}
+Support = 0.358621: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,education-spending=n,Class=democrat}
+Support = 0.335632: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,superfund-right-to-sue=n,Class=democrat}
+Support = 0.326437: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,crime=n,Class=democrat}
+Support = 0.34023: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y}
+Support = 0.342529: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n}
+Support = 0.328736: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}
+Support = 0.314943: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}
+Support = 0.4: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,Class=democrat}
+Support = 0.305747: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,mx-missile=y,education-spending=n}
+Support = 0.349425: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,mx-missile=y,Class=democrat}
+Support = 0.358621: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,education-spending=n,Class=democrat}
+Support = 0.335632: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.321839: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,crime=n,Class=democrat}
+Support = 0.328736: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n}
+Support = 0.301149: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,mx-missile=y,superfund-right-to-sue=n}
+Support = 0.372414: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,mx-missile=y,Class=democrat}
+Support = 0.308046: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n}
+Support = 0.308046: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,education-spending=n,crime=n}
+Support = 0.390805: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,education-spending=n,Class=democrat}
+Support = 0.358621: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.344828: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,crime=n,Class=democrat}
+Support = 0.301149: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,duty-free-exports=y,Class=democrat}
+Support = 0.305747: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,export-administration-act-south-africa=y,Class=democrat}
+Support = 0.34023: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.305747: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,mx-missile=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.321839: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,education-spending=n,crime=n,Class=democrat}
+Support = 0.335632: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y}
+Support = 0.335632: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n}
+Support = 0.317241: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}
+Support = 0.303448: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}
+Support = 0.381609: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,Class=democrat}
+Support = 0.333333: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y,Class=democrat}
+Support = 0.335632: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,education-spending=n,Class=democrat}
+Support = 0.314943: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.308046: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,crime=n,Class=democrat}
+Support = 0.321839: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n}
+Support = 0.354023: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y,Class=democrat}
+Support = 0.358621: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n,Class=democrat}
+Support = 0.333333: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.326437: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,aid-to-nicaraguan-contras=y,crime=n,Class=democrat}
+Support = 0.31954: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.305747: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n}
+Support = 0.344828: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,Class=democrat}
+Support = 0.347126: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n,Class=democrat}
+Support = 0.328736: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.317241: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n,Class=democrat}
+Support = 0.310345: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.333333: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.301149: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,mx-missile=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.308046: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n,Class=democrat}
+Support = 0.310345: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,education-spending=n,crime=n,Class=democrat}
+Support = 0.347126: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y}
+Support = 0.349425: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n}
+Support = 0.331034: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}
+Support = 0.312644: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}
+Support = 0.4: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,Class=democrat}
+Support = 0.312644: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y,education-spending=n}
+Support = 0.351724: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y,Class=democrat}
+Support = 0.354023: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,education-spending=n,Class=democrat}
+Support = 0.335632: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.31954: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,crime=n,Class=democrat}
+Support = 0.333333: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n}
+Support = 0.303448: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y,superfund-right-to-sue=n}
+Support = 0.374713: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y,Class=democrat}
+Support = 0.310345: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n}
+Support = 0.303448: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n,crime=n}
+Support = 0.377012: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n,Class=democrat}
+Support = 0.351724: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.335632: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,crime=n,Class=democrat}
+Support = 0.305747: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,duty-free-exports=y,Class=democrat}
+Support = 0.301149: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,export-administration-act-south-africa=y,Class=democrat}
+Support = 0.337931: {physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.308046: {physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.310345: {physician-fee-freeze=n,el-salvador-aid=n,education-spending=n,crime=n,Class=democrat}
+Support = 0.317241: {physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n}
+Support = 0.301149: {physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,superfund-right-to-sue=n}
+Support = 0.36092: {physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,Class=democrat}
+Support = 0.303448: {physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n}
+Support = 0.363218: {physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n,Class=democrat}
+Support = 0.347126: {physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.326437: {physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n,Class=democrat}
+Support = 0.326437: {physician-fee-freeze=n,anti-satellite-test-ban=y,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.305747: {physician-fee-freeze=n,anti-satellite-test-ban=y,mx-missile=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.312644: {physician-fee-freeze=n,anti-satellite-test-ban=y,education-spending=n,superfund-right-to-sue=n,Class=democrat}
+Support = 0.301149: {physician-fee-freeze=n,anti-satellite-test-ban=y,education-spending=n,crime=n,Class=democrat}
+Support = 0.349425: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.31954: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,mx-missile=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.301149: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,mx-missile=y,crime=n,Class=democrat}
+Support = 0.328736: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n,Class=democrat}
+Support = 0.321839: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,education-spending=n,crime=n,Class=democrat}
+Support = 0.314943: {physician-fee-freeze=y,el-salvador-aid=y,religious-groups-in-schools=y,mx-missile=n,crime=y}
+Support = 0.312644: {physician-fee-freeze=y,el-salvador-aid=y,religious-groups-in-schools=y,mx-missile=n,Class=republican}
+Support = 0.312644: {physician-fee-freeze=y,el-salvador-aid=y,religious-groups-in-schools=y,crime=y,Class=republican}
+Support = 0.312644: {physician-fee-freeze=y,el-salvador-aid=y,mx-missile=n,crime=y,Class=republican}
+Support = 0.324138: {el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n}
+Support = 0.356322: {el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,Class=democrat}
+Support = 0.358621: {el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n,Class=democrat}
+Support = 0.331034: {el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.317241: {el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n,Class=democrat}
+Support = 0.321839: {el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.342529: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.303448: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.310345: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n,Class=democrat}
+Support = 0.308046: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n,crime=n,Class=democrat}
+Support = 0.305747: {el-salvador-aid=y,religious-groups-in-schools=y,anti-satellite-test-ban=n,aid-to-nicaraguan-contras=n,mx-missile=n}
+Support = 0.305747: {el-salvador-aid=y,religious-groups-in-schools=y,anti-satellite-test-ban=n,aid-to-nicaraguan-contras=n,crime=y}
+Support = 0.308046: {el-salvador-aid=y,religious-groups-in-schools=y,anti-satellite-test-ban=n,mx-missile=n,crime=y}
+Support = 0.326437: {el-salvador-aid=y,religious-groups-in-schools=y,aid-to-nicaraguan-contras=n,mx-missile=n,crime=y}
+Support = 0.303448: {el-salvador-aid=y,religious-groups-in-schools=y,aid-to-nicaraguan-contras=n,mx-missile=n,duty-free-exports=n}
+Support = 0.310345: {el-salvador-aid=y,religious-groups-in-schools=y,aid-to-nicaraguan-contras=n,superfund-right-to-sue=y,crime=y}
+Support = 0.308046: {el-salvador-aid=y,religious-groups-in-schools=y,aid-to-nicaraguan-contras=n,crime=y,duty-free-exports=n}
+Support = 0.310345: {el-salvador-aid=y,religious-groups-in-schools=y,mx-missile=n,superfund-right-to-sue=y,crime=y}
+Support = 0.314943: {el-salvador-aid=y,religious-groups-in-schools=y,mx-missile=n,crime=y,duty-free-exports=n}
+Support = 0.303448: {el-salvador-aid=y,anti-satellite-test-ban=n,aid-to-nicaraguan-contras=n,mx-missile=n,crime=y}
+Support = 0.303448: {el-salvador-aid=y,aid-to-nicaraguan-contras=n,mx-missile=n,crime=y,duty-free-exports=n}
+Support = 0.326437: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.301149: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.303448: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n,Class=democrat}
+Support = 0.324138: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y}
+Support = 0.326437: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n}
+Support = 0.310345: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}
+Support = 0.301149: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}
+Support = 0.377012: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,Class=democrat}
+Support = 0.328736: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y,Class=democrat}
+Support = 0.331034: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,education-spending=n,Class=democrat}
+Support = 0.314943: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.305747: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,crime=n,Class=democrat}
+Support = 0.310345: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n}
+Support = 0.349425: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y,Class=democrat}
+Support = 0.354023: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n,Class=democrat}
+Support = 0.331034: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.321839: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,crime=n,Class=democrat}
+Support = 0.314943: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.34023: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,Class=democrat}
+Support = 0.342529: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n,Class=democrat}
+Support = 0.328736: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.314943: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n,Class=democrat}
+Support = 0.305747: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.328736: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.301149: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,mx-missile=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.308046: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n,Class=democrat}
+Support = 0.308046: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,education-spending=n,crime=n,Class=democrat}
+Support = 0.328736: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,Class=democrat}
+Support = 0.331034: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n,Class=democrat}
+Support = 0.310345: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.303448: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n,Class=democrat}
+Support = 0.314943: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.301149: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.305747: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n}
+Support = 0.344828: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,Class=democrat}
+Support = 0.347126: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n,Class=democrat}
+Support = 0.328736: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.312644: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n,Class=democrat}
+Support = 0.310345: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.331034: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.301149: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.308046: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n,Class=democrat}
+Support = 0.303448: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n,crime=n,Class=democrat}
+Support = 0.314943: {physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.301149: {physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n,Class=democrat}
+Support = 0.314943: {el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.324138: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,Class=democrat}
+Support = 0.326437: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n,Class=democrat}
+Support = 0.310345: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}
+Support = 0.301149: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n,Class=democrat}
+Support = 0.310345: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n,Class=democrat}
+Support = 0.303448: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n,Class=democrat}*****
+
+Confidence = 1: {handicapped-infants=y,adoption-of-the-budget-resolution=y,physician-fee-freeze=n}-> {Class=democrat}
+Confidence = 0.993333: {handicapped-infants=y,physician-fee-freeze=n}-> {Class=democrat}
+Confidence = 0.992481: {handicapped-infants=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y}-> {Class=democrat}
+Confidence = 0.992593: {adoption-of-the-budget-resolution=n,physician-fee-freeze=y,mx-missile=n}-> {el-salvador-aid=y}
+Confidence = 0.992754: {adoption-of-the-budget-resolution=n,el-salvador-aid=y,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 0.985507: {adoption-of-the-budget-resolution=n,religious-groups-in-schools=y,mx-missile=n}-> {el-salvador-aid=y}
+Confidence = 0.985185: {adoption-of-the-budget-resolution=n,aid-to-nicaraguan-contras=n,mx-missile=n}-> {el-salvador-aid=y}
+Confidence = 0.985075: {adoption-of-the-budget-resolution=n,aid-to-nicaraguan-contras=n,crime=y}-> {el-salvador-aid=y}
+Confidence = 0.986301: {adoption-of-the-budget-resolution=n,mx-missile=n}-> {el-salvador-aid=y}
+Confidence = 0.985612: {adoption-of-the-budget-resolution=n,mx-missile=n,crime=y}-> {el-salvador-aid=y}
+Confidence = 0.992424: {adoption-of-the-budget-resolution=n,mx-missile=n,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 0.992424: {adoption-of-the-budget-resolution=n,mx-missile=n,Class=republican}-> {el-salvador-aid=y}
+Confidence = 0.985185: {adoption-of-the-budget-resolution=n,crime=y,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 0.985915: {adoption-of-the-budget-resolution=n,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n}-> {Class=democrat}
+Confidence = 0.98895: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.98895: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n}-> {aid-to-nicaraguan-contras=y,Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n}-> {Class=democrat}
+Confidence = 0.987952: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.987952: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y}-> {aid-to-nicaraguan-contras=y,Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}-> {Class=democrat}
+Confidence = 0.986014: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.986014: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y}-> {aid-to-nicaraguan-contras=y,Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y}-> {Class=democrat}
+Confidence = 0.986014: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.986111: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,education-spending=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.986111: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,education-spending=n}-> {aid-to-nicaraguan-contras=y,Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,education-spending=n}-> {Class=democrat}
+Confidence = 0.986111: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,education-spending=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.985401: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,superfund-right-to-sue=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.985401: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,superfund-right-to-sue=n}-> {aid-to-nicaraguan-contras=y,Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 0.985401: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,superfund-right-to-sue=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.984962: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,crime=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.984962: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,crime=n}-> {aid-to-nicaraguan-contras=y,Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,crime=n}-> {Class=democrat}
+Confidence = 0.984962: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,crime=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.987952: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,crime=n}-> {Class=democrat}
+Confidence = 0.987013: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.987013: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y}-> {aid-to-nicaraguan-contras=y,Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y}-> {Class=democrat}
+Confidence = 0.985401: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y,education-spending=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.985401: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y,education-spending=n}-> {aid-to-nicaraguan-contras=y,Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y,education-spending=n}-> {Class=democrat}
+Confidence = 0.985401: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y,education-spending=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.987013: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.987179: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,education-spending=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.987179: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,education-spending=n}-> {aid-to-nicaraguan-contras=y,Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,education-spending=n}-> {Class=democrat}
+Confidence = 0.987179: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,education-spending=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.986301: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,superfund-right-to-sue=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.986301: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,superfund-right-to-sue=n}-> {aid-to-nicaraguan-contras=y,Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 0.986301: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,superfund-right-to-sue=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.985915: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,crime=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.985915: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,crime=n}-> {aid-to-nicaraguan-contras=y,Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,crime=n}-> {Class=democrat}
+Confidence = 0.985915: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,crime=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.98895: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,el-salvador-aid=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,mx-missile=y}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,mx-missile=y,education-spending=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,education-spending=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,anti-satellite-test-ban=y,crime=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,mx-missile=y}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,mx-missile=y,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,education-spending=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,education-spending=n,crime=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,crime=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,duty-free-exports=y}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,aid-to-nicaraguan-contras=y,export-administration-act-south-africa=y}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,mx-missile=y}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,mx-missile=y,education-spending=n}-> {Class=democrat}
+Confidence = 0.984962: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,mx-missile=y,superfund-right-to-sue=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.984962: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,mx-missile=y,superfund-right-to-sue=n}-> {aid-to-nicaraguan-contras=y,Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,mx-missile=y,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 0.984962: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,mx-missile=y,superfund-right-to-sue=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,education-spending=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,education-spending=n,crime=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,crime=n}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,duty-free-exports=y}-> {Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,physician-fee-freeze=n,export-administration-act-south-africa=y}-> {Class=democrat}
+Confidence = 0.989362: {adoption-of-the-budget-resolution=y,el-salvador-aid=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.988304: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.982456: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y}-> {Class=democrat}
+Confidence = 0.982249: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y}-> {Class=democrat}
+Confidence = 0.986014: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.986301: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n}-> {Class=democrat}
+Confidence = 0.986111: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 1: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.992424: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}-> {physician-fee-freeze=n}
+Confidence = 0.992424: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}-> {physician-fee-freeze=n,Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}-> {Class=democrat}
+Confidence = 0.992424: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.987952: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.986486: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.986207: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.986207: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.986486: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,education-spending=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.986486: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,education-spending=n}-> {Class=democrat}
+Confidence = 0.986301: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,education-spending=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.986301: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,education-spending=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.985714: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,superfund-right-to-sue=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 1: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.985401: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n,aid-to-nicaraguan-contras=y}
+Confidence = 0.985401: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,superfund-right-to-sue=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.992537: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,crime=n}-> {physician-fee-freeze=n}
+Confidence = 0.992537: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,crime=n}-> {physician-fee-freeze=n,Class=democrat}
+Confidence = 0.985075: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,crime=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.985075: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,crime=n}-> {aid-to-nicaraguan-contras=y,Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,crime=n}-> {Class=democrat}
+Confidence = 0.992537: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.985075: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,crime=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.988095: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.988095: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,anti-satellite-test-ban=y,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.985401: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.987013: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.981132: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n}-> {Class=democrat}
+Confidence = 0.987179: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.993103: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.985915: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,aid-to-nicaraguan-contras=y,crime=n}-> {physician-fee-freeze=n}
+Confidence = 0.985915: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,aid-to-nicaraguan-contras=y,crime=n}-> {physician-fee-freeze=n,Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,aid-to-nicaraguan-contras=y,crime=n}-> {Class=democrat}
+Confidence = 0.985915: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,aid-to-nicaraguan-contras=y,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.983516: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,aid-to-nicaraguan-contras=y,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.9875: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,mx-missile=y}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.985915: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,mx-missile=y,education-spending=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.985612: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,mx-missile=y,education-spending=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.985612: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,mx-missile=y,education-spending=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.987179: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,mx-missile=y,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.987179: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,mx-missile=y,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.987578: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,education-spending=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.981366: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,education-spending=n}-> {Class=democrat}
+Confidence = 0.987342: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,education-spending=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.987342: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,education-spending=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.986755: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,superfund-right-to-sue=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.993197: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.986395: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,superfund-right-to-sue=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.986111: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,crime=n}-> {physician-fee-freeze=n}
+Confidence = 0.986111: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,crime=n}-> {physician-fee-freeze=n,Class=democrat}
+Confidence = 0.986111: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,crime=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.986111: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,crime=n}-> {aid-to-nicaraguan-contras=y,Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,crime=n}-> {Class=democrat}
+Confidence = 0.986111: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.986111: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,crime=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.983696: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.98913: {adoption-of-the-budget-resolution=y,el-salvador-aid=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.984962: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n}-> {Class=democrat}
+Confidence = 0.986667: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.986755: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 1: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.992754: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}-> {physician-fee-freeze=n}
+Confidence = 0.992754: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}-> {physician-fee-freeze=n,Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}-> {Class=democrat}
+Confidence = 0.992754: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.988636: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.985185: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,mx-missile=y,education-spending=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.987013: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,mx-missile=y,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.987342: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,education-spending=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.980392: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,superfund-right-to-sue=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 1: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.992908: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,crime=n}-> {physician-fee-freeze=n}
+Confidence = 0.992908: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,crime=n}-> {physician-fee-freeze=n,Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,crime=n}-> {Class=democrat}
+Confidence = 0.992908: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.98913: {adoption-of-the-budget-resolution=y,anti-satellite-test-ban=y,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.986207: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 1: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,mx-missile=y,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.981818: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,mx-missile=y,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 1: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.992593: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,education-spending=n,crime=n}-> {physician-fee-freeze=n}
+Confidence = 0.992593: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,education-spending=n,crime=n}-> {physician-fee-freeze=n,Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,education-spending=n,crime=n}-> {Class=democrat}
+Confidence = 0.992593: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,education-spending=n,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.982659: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,education-spending=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.993631: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.986842: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,crime=n}-> {physician-fee-freeze=n}
+Confidence = 0.986842: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,crime=n}-> {physician-fee-freeze=n,Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,crime=n}-> {Class=democrat}
+Confidence = 0.986842: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.984962: {adoption-of-the-budget-resolution=y,aid-to-nicaraguan-contras=y,duty-free-exports=y,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.980132: {adoption-of-the-budget-resolution=y,mx-missile=y,education-spending=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.985401: {adoption-of-the-budget-resolution=y,mx-missile=y,superfund-right-to-sue=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 1: {adoption-of-the-budget-resolution=y,mx-missile=y,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.984962: {adoption-of-the-budget-resolution=y,mx-missile=y,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n,aid-to-nicaraguan-contras=y}
+Confidence = 0.984962: {adoption-of-the-budget-resolution=y,mx-missile=y,superfund-right-to-sue=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.992908: {adoption-of-the-budget-resolution=y,education-spending=n,crime=n}-> {physician-fee-freeze=n}
+Confidence = 0.992908: {adoption-of-the-budget-resolution=y,education-spending=n,crime=n}-> {physician-fee-freeze=n,Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,education-spending=n,crime=n}-> {Class=democrat}
+Confidence = 0.992908: {adoption-of-the-budget-resolution=y,education-spending=n,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.993865: {adoption-of-the-budget-resolution=y,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.987342: {adoption-of-the-budget-resolution=y,crime=n}-> {physician-fee-freeze=n}
+Confidence = 0.987342: {adoption-of-the-budget-resolution=y,crime=n}-> {physician-fee-freeze=n,Class=democrat}
+Confidence = 1: {adoption-of-the-budget-resolution=y,crime=n}-> {Class=democrat}
+Confidence = 0.987342: {adoption-of-the-budget-resolution=y,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.991903: {physician-fee-freeze=n}-> {Class=democrat}
+Confidence = 0.984615: {physician-fee-freeze=n,el-salvador-aid=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.994872: {physician-fee-freeze=n,el-salvador-aid=n}-> {Class=democrat}
+Confidence = 0.983146: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.994382: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y}-> {Class=democrat}
+Confidence = 0.994286: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y}-> {Class=democrat}
+Confidence = 0.993377: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y}-> {Class=democrat}
+Confidence = 0.992481: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n}-> {Class=democrat}
+Confidence = 0.993421: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n}-> {Class=democrat}
+Confidence = 0.993056: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 1: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}-> {Class=democrat}
+Confidence = 0.980519: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.993506: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y}-> {Class=democrat}
+Confidence = 0.992647: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y,education-spending=n}-> {Class=democrat}
+Confidence = 0.980392: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.980645: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,education-spending=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.993548: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,education-spending=n}-> {Class=democrat}
+Confidence = 0.980519: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,education-spending=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.993197: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 1: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,crime=n}-> {Class=democrat}
+Confidence = 0.983051: {physician-fee-freeze=n,el-salvador-aid=n,anti-satellite-test-ban=y,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.994792: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y}-> {Class=democrat}
+Confidence = 0.993902: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y}-> {Class=democrat}
+Confidence = 0.993103: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n}-> {Class=democrat}
+Confidence = 0.992424: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 0.993939: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n}-> {Class=democrat}
+Confidence = 0.992593: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 1: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n,crime=n}-> {Class=democrat}
+Confidence = 0.993506: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 1: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,crime=n}-> {Class=democrat}
+Confidence = 1: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,duty-free-exports=y}-> {Class=democrat}
+Confidence = 0.992424: {physician-fee-freeze=n,el-salvador-aid=n,aid-to-nicaraguan-contras=y,export-administration-act-south-africa=y}-> {Class=democrat}
+Confidence = 0.982036: {physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.994012: {physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y}-> {Class=democrat}
+Confidence = 0.993243: {physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y,education-spending=n}-> {Class=democrat}
+Confidence = 0.992593: {physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 0.981928: {physician-fee-freeze=n,el-salvador-aid=n,mx-missile=y,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.982143: {physician-fee-freeze=n,el-salvador-aid=n,education-spending=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.994048: {physician-fee-freeze=n,el-salvador-aid=n,education-spending=n}-> {Class=democrat}
+Confidence = 1: {physician-fee-freeze=n,el-salvador-aid=n,education-spending=n,crime=n}-> {Class=democrat}
+Confidence = 0.982036: {physician-fee-freeze=n,el-salvador-aid=n,education-spending=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.980892: {physician-fee-freeze=n,el-salvador-aid=n,superfund-right-to-sue=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.993631: {physician-fee-freeze=n,el-salvador-aid=n,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 0.980769: {physician-fee-freeze=n,el-salvador-aid=n,superfund-right-to-sue=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 1: {physician-fee-freeze=n,el-salvador-aid=n,crime=n}-> {Class=democrat}
+Confidence = 1: {physician-fee-freeze=n,el-salvador-aid=n,duty-free-exports=y}-> {Class=democrat}
+Confidence = 0.992593: {physician-fee-freeze=n,el-salvador-aid=n,export-administration-act-south-africa=y}-> {Class=democrat}
+Confidence = 0.984536: {physician-fee-freeze=n,el-salvador-aid=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.992537: {physician-fee-freeze=n,religious-groups-in-schools=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.985075: {physician-fee-freeze=n,religious-groups-in-schools=n}-> {aid-to-nicaraguan-contras=y,Class=democrat}
+Confidence = 0.992537: {physician-fee-freeze=n,religious-groups-in-schools=n}-> {Class=democrat}
+Confidence = 0.992481: {physician-fee-freeze=n,religious-groups-in-schools=n,aid-to-nicaraguan-contras=y}-> {Class=democrat}
+Confidence = 0.992481: {physician-fee-freeze=n,religious-groups-in-schools=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.989848: {physician-fee-freeze=n,anti-satellite-test-ban=y}-> {Class=democrat}
+Confidence = 0.994595: {physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y}-> {Class=democrat}
+Confidence = 0.993671: {physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y}-> {Class=democrat}
+Confidence = 0.992754: {physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n}-> {Class=democrat}
+Confidence = 0.993711: {physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n}-> {Class=democrat}
+Confidence = 0.992424: {physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 0.993421: {physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 1: {physician-fee-freeze=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}-> {Class=democrat}
+Confidence = 0.993865: {physician-fee-freeze=n,anti-satellite-test-ban=y,mx-missile=y}-> {Class=democrat}
+Confidence = 0.993007: {physician-fee-freeze=n,anti-satellite-test-ban=y,mx-missile=y,education-spending=n}-> {Class=democrat}
+Confidence = 0.992537: {physician-fee-freeze=n,anti-satellite-test-ban=y,mx-missile=y,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 0.994048: {physician-fee-freeze=n,anti-satellite-test-ban=y,education-spending=n}-> {Class=democrat}
+Confidence = 0.992701: {physician-fee-freeze=n,anti-satellite-test-ban=y,education-spending=n,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 1: {physician-fee-freeze=n,anti-satellite-test-ban=y,education-spending=n,crime=n}-> {Class=democrat}
+Confidence = 0.987342: {physician-fee-freeze=n,anti-satellite-test-ban=y,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 1: {physician-fee-freeze=n,anti-satellite-test-ban=y,crime=n}-> {Class=democrat}
+Confidence = 0.992537: {physician-fee-freeze=n,anti-satellite-test-ban=y,duty-free-exports=y}-> {Class=democrat}
+Confidence = 0.985294: {physician-fee-freeze=n,anti-satellite-test-ban=y,export-administration-act-south-africa=y}-> {Class=democrat}
+Confidence = 0.995261: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y}-> {Class=democrat}
+Confidence = 0.994253: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,mx-missile=y}-> {Class=democrat}
+Confidence = 0.993464: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,mx-missile=y,education-spending=n}-> {Class=democrat}
+Confidence = 0.992857: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,mx-missile=y,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 1: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,mx-missile=y,crime=n}-> {Class=democrat}
+Confidence = 0.994475: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,education-spending=n}-> {Class=democrat}
+Confidence = 0.993056: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 1: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,education-spending=n,crime=n}-> {Class=democrat}
+Confidence = 0.993976: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 1: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,crime=n}-> {Class=democrat}
+Confidence = 1: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,duty-free-exports=y}-> {Class=democrat}
+Confidence = 0.992958: {physician-fee-freeze=n,aid-to-nicaraguan-contras=y,export-administration-act-south-africa=y}-> {Class=democrat}
+Confidence = 0.994444: {physician-fee-freeze=n,mx-missile=y}-> {Class=democrat}
+Confidence = 0.993711: {physician-fee-freeze=n,mx-missile=y,education-spending=n}-> {Class=democrat}
+Confidence = 0.993007: {physician-fee-freeze=n,mx-missile=y,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 1: {physician-fee-freeze=n,mx-missile=y,crime=n}-> {Class=democrat}
+Confidence = 0.99505: {physician-fee-freeze=n,education-spending=n}-> {Class=democrat}
+Confidence = 0.993464: {physician-fee-freeze=n,education-spending=n,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 1: {physician-fee-freeze=n,education-spending=n,crime=n}-> {Class=democrat}
+Confidence = 1: {physician-fee-freeze=n,education-spending=n,duty-free-exports=y}-> {Class=democrat}
+Confidence = 0.992701: {physician-fee-freeze=n,education-spending=n,export-administration-act-south-africa=y}-> {Class=democrat}
+Confidence = 0.988764: {physician-fee-freeze=n,superfund-right-to-sue=n}-> {Class=democrat}
+Confidence = 1: {physician-fee-freeze=n,superfund-right-to-sue=n,crime=n}-> {Class=democrat}
+Confidence = 1: {physician-fee-freeze=n,crime=n}-> {Class=democrat}
+Confidence = 0.993548: {physician-fee-freeze=n,duty-free-exports=y}-> {Class=democrat}
+Confidence = 0.987952: {physician-fee-freeze=n,export-administration-act-south-africa=y}-> {Class=democrat}
+Confidence = 0.992537: {physician-fee-freeze=y,religious-groups-in-schools=y,aid-to-nicaraguan-contras=n}-> {el-salvador-aid=y}
+Confidence = 0.993151: {physician-fee-freeze=y,religious-groups-in-schools=y,mx-missile=n}-> {el-salvador-aid=y}
+Confidence = 0.992754: {physician-fee-freeze=y,religious-groups-in-schools=y,mx-missile=n,crime=y}-> {el-salvador-aid=y}
+Confidence = 0.992701: {physician-fee-freeze=y,religious-groups-in-schools=y,mx-missile=n,Class=republican}-> {el-salvador-aid=y}
+Confidence = 0.980132: {physician-fee-freeze=y,religious-groups-in-schools=y,crime=y}-> {el-salvador-aid=y}
+Confidence = 0.985075: {physician-fee-freeze=y,anti-satellite-test-ban=n}-> {el-salvador-aid=y}
+Confidence = 0.993007: {physician-fee-freeze=y,aid-to-nicaraguan-contras=n}-> {el-salvador-aid=y}
+Confidence = 0.992647: {physician-fee-freeze=y,aid-to-nicaraguan-contras=n,mx-missile=n}-> {el-salvador-aid=y}
+Confidence = 0.992754: {physician-fee-freeze=y,aid-to-nicaraguan-contras=n,crime=y}-> {el-salvador-aid=y}
+Confidence = 0.992424: {physician-fee-freeze=y,aid-to-nicaraguan-contras=n,Class=republican}-> {el-salvador-aid=y}
+Confidence = 0.993506: {physician-fee-freeze=y,mx-missile=n}-> {el-salvador-aid=y}
+Confidence = 0.993151: {physician-fee-freeze=y,mx-missile=n,crime=y}-> {el-salvador-aid=y}
+Confidence = 0.992701: {physician-fee-freeze=y,mx-missile=n,crime=y,Class=republican}-> {el-salvador-aid=y}
+Confidence = 0.992481: {physician-fee-freeze=y,mx-missile=n,duty-free-exports=n}-> {el-salvador-aid=y}
+Confidence = 0.993103: {physician-fee-freeze=y,mx-missile=n,Class=republican}-> {el-salvador-aid=y}
+Confidence = 0.980769: {el-salvador-aid=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.992701: {el-salvador-aid=n,religious-groups-in-schools=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.992424: {el-salvador-aid=n,religious-groups-in-schools=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.993056: {el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.985507: {el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}-> {physician-fee-freeze=n}
+Confidence = 0.985507: {el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}-> {physician-fee-freeze=n,Class=democrat}
+Confidence = 1: {el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}-> {Class=democrat}
+Confidence = 0.985507: {el-salvador-aid=n,anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.981013: {el-salvador-aid=n,anti-satellite-test-ban=y,mx-missile=y,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.981595: {el-salvador-aid=n,anti-satellite-test-ban=y,education-spending=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.981132: {el-salvador-aid=n,anti-satellite-test-ban=y,education-spending=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.980132: {el-salvador-aid=n,anti-satellite-test-ban=y,superfund-right-to-sue=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.993197: {el-salvador-aid=n,anti-satellite-test-ban=y,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.985816: {el-salvador-aid=n,anti-satellite-test-ban=y,crime=n}-> {physician-fee-freeze=n}
+Confidence = 0.985816: {el-salvador-aid=n,anti-satellite-test-ban=y,crime=n}-> {physician-fee-freeze=n,Class=democrat}
+Confidence = 1: {el-salvador-aid=n,anti-satellite-test-ban=y,crime=n}-> {Class=democrat}
+Confidence = 0.985816: {el-salvador-aid=n,anti-satellite-test-ban=y,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.983516: {el-salvador-aid=n,anti-satellite-test-ban=y,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.992424: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,mx-missile=y,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.992593: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.985075: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n,crime=n}-> {physician-fee-freeze=n}
+Confidence = 0.985075: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n,crime=n}-> {physician-fee-freeze=n,Class=democrat}
+Confidence = 1: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n,crime=n}-> {Class=democrat}
+Confidence = 0.985075: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,education-spending=n,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.987097: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.993333: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,crime=n}-> {Class=democrat}
+Confidence = 0.985507: {el-salvador-aid=n,aid-to-nicaraguan-contras=y,duty-free-exports=y}-> {Class=democrat}
+Confidence = 0.980892: {el-salvador-aid=n,mx-missile=y,education-spending=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.980263: {el-salvador-aid=n,mx-missile=y,education-spending=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.992593: {el-salvador-aid=n,mx-missile=y,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.992481: {el-salvador-aid=n,mx-missile=y,crime=n}-> {Class=democrat}
+Confidence = 0.982456: {el-salvador-aid=n,mx-missile=y,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.983051: {el-salvador-aid=n,education-spending=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.985401: {el-salvador-aid=n,education-spending=n,crime=n}-> {physician-fee-freeze=n}
+Confidence = 0.985401: {el-salvador-aid=n,education-spending=n,crime=n}-> {physician-fee-freeze=n,Class=democrat}
+Confidence = 1: {el-salvador-aid=n,education-spending=n,crime=n}-> {Class=democrat}
+Confidence = 0.985401: {el-salvador-aid=n,education-spending=n,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.982558: {el-salvador-aid=n,education-spending=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.981595: {el-salvador-aid=n,superfund-right-to-sue=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.987342: {el-salvador-aid=n,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.981013: {el-salvador-aid=n,superfund-right-to-sue=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.980392: {el-salvador-aid=n,crime=n}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.993464: {el-salvador-aid=n,crime=n}-> {Class=democrat}
+Confidence = 0.980263: {el-salvador-aid=n,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.980263: {el-salvador-aid=n,crime=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.985816: {el-salvador-aid=n,duty-free-exports=y}-> {Class=democrat}
+Confidence = 0.985: {el-salvador-aid=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.992701: {el-salvador-aid=y,religious-groups-in-schools=y,mx-missile=n,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 0.992701: {el-salvador-aid=y,religious-groups-in-schools=y,crime=y,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 0.993103: {el-salvador-aid=y,religious-groups-in-schools=y,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 0.992424: {el-salvador-aid=y,aid-to-nicaraguan-contras=n,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 0.992701: {el-salvador-aid=y,mx-missile=n,crime=y,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 0.993103: {el-salvador-aid=y,mx-missile=n,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 1: {el-salvador-aid=y,education-spending=y,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 1: {el-salvador-aid=y,superfund-right-to-sue=y,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 0.993289: {el-salvador-aid=y,crime=y,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 1: {el-salvador-aid=y,duty-free-exports=n,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 0.993631: {el-salvador-aid=y,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 0.985075: {religious-groups-in-schools=n,aid-to-nicaraguan-contras=y,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.985185: {religious-groups-in-schools=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.992593: {religious-groups-in-schools=n,Class=democrat}-> {aid-to-nicaraguan-contras=y}
+Confidence = 0.992537: {religious-groups-in-schools=y,anti-satellite-test-ban=n,aid-to-nicaraguan-contras=n,crime=y}-> {el-salvador-aid=y}
+Confidence = 0.985294: {religious-groups-in-schools=y,anti-satellite-test-ban=n,mx-missile=n,crime=y}-> {el-salvador-aid=y}
+Confidence = 0.986111: {religious-groups-in-schools=y,aid-to-nicaraguan-contras=n,mx-missile=n,crime=y}-> {el-salvador-aid=y}
+Confidence = 0.992647: {religious-groups-in-schools=y,aid-to-nicaraguan-contras=n,superfund-right-to-sue=y,crime=y}-> {el-salvador-aid=y}
+Confidence = 0.987179: {religious-groups-in-schools=y,aid-to-nicaraguan-contras=n,crime=y}-> {el-salvador-aid=y}
+Confidence = 0.985294: {religious-groups-in-schools=y,aid-to-nicaraguan-contras=n,crime=y,duty-free-exports=n}-> {el-salvador-aid=y}
+Confidence = 0.992754: {religious-groups-in-schools=y,mx-missile=n,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 0.985507: {religious-groups-in-schools=y,mx-missile=n,Class=republican}-> {physician-fee-freeze=y,el-salvador-aid=y}
+Confidence = 0.992754: {religious-groups-in-schools=y,mx-missile=n,Class=republican}-> {el-salvador-aid=y}
+Confidence = 0.992857: {religious-groups-in-schools=y,crime=y,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 0.986577: {religious-groups-in-schools=y,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 0.992481: {anti-satellite-test-ban=n,aid-to-nicaraguan-contras=n,mx-missile=n,crime=y}-> {el-salvador-aid=y}
+Confidence = 0.992857: {anti-satellite-test-ban=n,aid-to-nicaraguan-contras=n,crime=y}-> {el-salvador-aid=y}
+Confidence = 0.985915: {anti-satellite-test-ban=n,mx-missile=n,crime=y}-> {el-salvador-aid=y}
+Confidence = 0.992424: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.993421: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.986111: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}-> {physician-fee-freeze=n}
+Confidence = 0.986111: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}-> {physician-fee-freeze=n,Class=democrat}
+Confidence = 1: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n}-> {Class=democrat}
+Confidence = 0.986111: {anti-satellite-test-ban=y,aid-to-nicaraguan-contras=y,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.992537: {anti-satellite-test-ban=y,mx-missile=y,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.992701: {anti-satellite-test-ban=y,education-spending=n,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.984962: {anti-satellite-test-ban=y,education-spending=n,crime=n}-> {physician-fee-freeze=n}
+Confidence = 0.984962: {anti-satellite-test-ban=y,education-spending=n,crime=n}-> {physician-fee-freeze=n,Class=democrat}
+Confidence = 1: {anti-satellite-test-ban=y,education-spending=n,crime=n}-> {Class=democrat}
+Confidence = 0.984962: {anti-satellite-test-ban=y,education-spending=n,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.993631: {anti-satellite-test-ban=y,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.986486: {anti-satellite-test-ban=y,crime=n}-> {physician-fee-freeze=n}
+Confidence = 0.986486: {anti-satellite-test-ban=y,crime=n}-> {physician-fee-freeze=n,Class=democrat}
+Confidence = 1: {anti-satellite-test-ban=y,crime=n}-> {Class=democrat}
+Confidence = 0.986486: {anti-satellite-test-ban=y,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.985185: {anti-satellite-test-ban=y,duty-free-exports=y,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.986842: {aid-to-nicaraguan-contras=n,mx-missile=n,crime=y}-> {el-salvador-aid=y}
+Confidence = 0.985075: {aid-to-nicaraguan-contras=n,mx-missile=n,crime=y,duty-free-exports=n}-> {el-salvador-aid=y}
+Confidence = 0.992958: {aid-to-nicaraguan-contras=n,superfund-right-to-sue=y,crime=y}-> {el-salvador-aid=y}
+Confidence = 0.987952: {aid-to-nicaraguan-contras=n,crime=y}-> {el-salvador-aid=y}
+Confidence = 0.986111: {aid-to-nicaraguan-contras=n,crime=y,duty-free-exports=n}-> {el-salvador-aid=y}
+Confidence = 0.992481: {aid-to-nicaraguan-contras=n,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 0.984962: {aid-to-nicaraguan-contras=n,Class=republican}-> {physician-fee-freeze=y,el-salvador-aid=y}
+Confidence = 0.992481: {aid-to-nicaraguan-contras=n,Class=republican}-> {el-salvador-aid=y}
+Confidence = 0.992857: {aid-to-nicaraguan-contras=y,mx-missile=y,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.992537: {aid-to-nicaraguan-contras=y,mx-missile=y,crime=n}-> {Class=democrat}
+Confidence = 0.984962: {aid-to-nicaraguan-contras=y,mx-missile=y,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.993056: {aid-to-nicaraguan-contras=y,education-spending=n,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.985915: {aid-to-nicaraguan-contras=y,education-spending=n,crime=n}-> {physician-fee-freeze=n}
+Confidence = 0.985915: {aid-to-nicaraguan-contras=y,education-spending=n,crime=n}-> {physician-fee-freeze=n,Class=democrat}
+Confidence = 1: {aid-to-nicaraguan-contras=y,education-spending=n,crime=n}-> {Class=democrat}
+Confidence = 0.985915: {aid-to-nicaraguan-contras=y,education-spending=n,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 1: {aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,crime=n}-> {Class=democrat}
+Confidence = 0.988024: {aid-to-nicaraguan-contras=y,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.99375: {aid-to-nicaraguan-contras=y,crime=n}-> {Class=democrat}
+Confidence = 0.981132: {aid-to-nicaraguan-contras=y,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.992754: {mx-missile=n,crime=y,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 0.985507: {mx-missile=n,crime=y,Class=republican}-> {physician-fee-freeze=y,el-salvador-aid=y}
+Confidence = 0.992754: {mx-missile=n,crime=y,Class=republican}-> {el-salvador-aid=y}
+Confidence = 0.993151: {mx-missile=n,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 0.986301: {mx-missile=n,Class=republican}-> {physician-fee-freeze=y,el-salvador-aid=y}
+Confidence = 0.993151: {mx-missile=n,Class=republican}-> {el-salvador-aid=y}
+Confidence = 0.993007: {mx-missile=y,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.992701: {mx-missile=y,crime=n}-> {Class=democrat}
+Confidence = 0.985294: {mx-missile=y,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.993464: {education-spending=n,superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.993377: {education-spending=n,crime=n}-> {Class=democrat}
+Confidence = 0.98: {education-spending=n,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.992593: {education-spending=y,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 0.992647: {superfund-right-to-sue=n,crime=n}-> {physician-fee-freeze=n}
+Confidence = 0.992647: {superfund-right-to-sue=n,crime=n}-> {physician-fee-freeze=n,Class=democrat}
+Confidence = 1: {superfund-right-to-sue=n,crime=n}-> {Class=democrat}
+Confidence = 0.992647: {superfund-right-to-sue=n,crime=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.98324: {superfund-right-to-sue=n,Class=democrat}-> {physician-fee-freeze=n}
+Confidence = 0.992647: {superfund-right-to-sue=y,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 0.982353: {crime=n}-> {Class=democrat}
+Confidence = 0.992647: {crime=y,duty-free-exports=n,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 0.981013: {crime=y,Class=republican}-> {physician-fee-freeze=y}
+Confidence = 0.985915: {duty-free-exports=n,Class=republican}-> {physician-fee-freeze=y}

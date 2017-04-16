@@ -2,7 +2,7 @@
 #include<bits/stdc++.h>
 
 #define N 435
-#define MIN_SUP 0.4
+#define MIN_SUP 0.35
 #define MIN_CONF 0.95
 #define CHILD 70
 #define CAPACITY 30
@@ -62,7 +62,7 @@ map<int,string> item_meaning_map;
 void hash_meaning();
 //HASH TREE RELATED
 int find_hashval(int );
-void Print(node *, int tabs=0);
+//void Print(node *, int tabs=0);
 node generate_hashtree(vector< set<int> > );
 bool check_exist(set<int> ,set<int> );
 void reset(node* root);
@@ -80,39 +80,44 @@ vector < set <int> > conv_set_to_vector_set(set <int> );
 int find_suppcount(set <int> );
 void ap_genrules(set <int> , vector <set <int> >, int inc = 0);
 void rulegen();
-void print_rules();
-
+void print_rules(char *);
+void print_set(set<int>, char *);
 
 int main()
 {
- char file[]="vote.arff";
- hash_meaning();
- cout<<"Meanings hashed!\n";
- for(int i=1;i<=34;i++)
- {
-     one_item_set.insert(pair<int,int> (i,0));
- }
- load_training_data(file);
- cout<<"done\n";
- cout<<"Transactions="<<transactions.size()<<endl;
- //Frequent Item-set Generation
- gen_freq_itemset();
- for(int i=0;i<freq_item.size();i++)
- {
-     cout<<i+1<<"th item-set:-\n";
-     for(map< set<int>,int >::iterator it=freq_item[i].begin();it!=freq_item[i].end();it++)
-     {
-         for(set<int>::iterator it2=it->first.begin();it2!=it->first.end();it2++)
-            cout<<*it2<<" ";
-         cout<<"Support="<<(float)it->second/N<<endl;
-     }
- }
- cout<<"*****\n";
- //Rule Generation
- rulegen();
- print_rules();
+    char input[] = "vote.txt", output[] = "output.txt";
+    fstream fout;
+    fout.open(output, ios::out);
+    fout.close();
+    hash_meaning();
+    cout << "Meanings hashed!\n";
+    for(int i=1;i<=34;i++)
+        one_item_set.insert(pair<int,int> (i,0));
+    load_training_data(input);
+    cout << "done\n";
+    cout << "Transactions=" << transactions.size() << endl;
+    //Frequent Item-set Generation
+    gen_freq_itemset();
+    for(int i = 0; i < freq_item.size(); i++)
+    {
+        fout << i+1 << "th item-set:-\n";
+        for(map< set<int>,int >::iterator it = freq_item[i].begin(); it != freq_item[i].end(); it++)
+        {
+            fout.open(output, ios::app);
+            fout << endl;
+            fout << "Support = " << (float)it->second/N << ": ";
+            fout.close();
+            print_set(it->first, output);
+        }
+    }
+    fout.open(output, ios::app);
+    fout<<"*****\n";
+    fout.close();
+    //Rule Generation
+    rulegen();
+    print_rules(output);
 
- return 0;
+return 0;
 }
 
 void gen_freq_itemset()
@@ -300,26 +305,26 @@ int find_hashval(int var)
 /*
 Function that prints the entire Hash tree
 */
-void Print(node *X, int tabs)
-{
-    if (!X->children.empty())
-    {
-        for (int i = 0; i < CHILD; ++i)
-            Print(&(X->children[i]), tabs + 1);
-        return;
-    }
-    set<int>::iterator iterat;
-    for (int i = 0; i < X->data.size(); ++i)
-    {
-        for (int j = 0; j < tabs; ++j) cout << "   ";
-        for (iterat = X->data[i].begin(); iterat != X->data[i].end(); ++iterat)
-        {
-            cout << *iterat << " ";
-        }
-        cout << endl;
-    }
-    cout << "**" << endl;
-}
+//void Print(node *X, int tabs)
+//{
+//    if (!X->children.empty())
+//    {
+//        for (int i = 0; i < CHILD; ++i)
+//            Print(&(X->children[i]), tabs + 1);
+//        return;
+//    }
+//    set<int>::iterator iterat;
+//    for (int i = 0; i < X->data.size(); ++i)
+//    {
+//        for (int j = 0; j < tabs; ++j) cout << "   ";
+//        for (iterat = X->data[i].begin(); iterat != X->data[i].end(); ++iterat)
+//        {
+//            cout << *iterat << " ";
+//        }
+//        cout << endl;
+//    }
+//    cout << "**" << endl;
+//}
 /*
 Function that generates a hash tree from the given candidate sets
 */
@@ -351,7 +356,6 @@ node generate_hashtree(vector< set<int> > Ck)
             {
                 int o;
                 for (iterat2 = curr->data[j].begin(), o = 0; o < level; ++iterat2, ++o);
-
                 ((curr->children[find_hashval(*iterat2)]).data).push_back(curr->data[j]);
             }
             curr->children[find_hashval(*(iterat))].data.push_back(Ck[i]);
@@ -359,7 +363,6 @@ node generate_hashtree(vector< set<int> > Ck)
             break;
         }
     }
-    curr = &root;
     return root;
 }
 /*
@@ -564,27 +567,42 @@ vector < set <int> > conv_set_to_vector_set(set <int> s)
     }
     return v;
 }
+
+/*
+Function to print set
+*/
+void print_set(set<int> s, char *file)
+{
+    fstream fout;
+    fout.open(file, ios::app);
+    fout << "{";
+    set<int>::iterator it = s.begin();
+    fout << item_meaning_map.find(*it)->second;
+    for(++it; it != s.end();it++)
+        fout << "," << item_meaning_map.find(*it)->second;
+    fout << "}";
+    fout.close();
+}
+
 /*
 Function to print rules
 */
-void print_rules()
+void print_rules(char *file)
 {
-        for(map< pair<set<int>,set<int> >,double >::iterator it=rules.begin();it!=rules.end();it++)
-        {
-            cout<<"{";
-            for(set<int>::iterator it2=it->first.first.begin();it2!=it->first.first.end();it2++)
-            {
-                cout<<item_meaning_map.find(*it2)->second<<",";
-            }
-            cout<<"}";
-            cout<<"-> {";
-            for(set<int>::iterator it2=it->first.second.begin();it2!=it->first.second.end();it2++)
-            {
-                cout<<item_meaning_map.find(*it2)->second<<",";
-            }
-            cout<<"} ";
-            cout<<"Confidence="<<it->second<<endl;
-        }
+    fstream fout;
+    for(map< pair<set<int>,set<int> >,double >::iterator it=rules.begin();it!=rules.end();it++)
+    {
+        fout.open(file, ios::app);
+        fout << endl;
+        fout << "Confidence = " << it->second << ": ";
+        fout.close();
+        print_set(it->first.first, file);
+        fout.open(file, ios::app);
+        fout << "-> ";
+        fout.close();
+        print_set(it->first.second, file);
+    }
+    fout.close();
 }
 /*
 Function that creates a map b/w items and their actual meanings
