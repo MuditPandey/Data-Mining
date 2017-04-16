@@ -85,9 +85,10 @@ void print_set(set<int>, char *);
 
 int main()
 {
-    char input[] = "vote.txt", output[] = "output.txt";
+    char input[] = "vote.arff", output[] = "output.txt";
     fstream fout;
     fout.open(output, ios::out);
+    fout<<"FREQUENT ITEM-SETS:"<<endl;
     fout.close();
     hash_meaning();
     cout << "Meanings hashed!\n";
@@ -98,6 +99,7 @@ int main()
     cout << "Transactions=" << transactions.size() << endl;
     //Frequent Item-set Generation
     gen_freq_itemset();
+
     for(int i = 0; i < freq_item.size(); i++)
     {
         fout << i+1 << "th item-set:-\n";
@@ -111,7 +113,7 @@ int main()
         }
     }
     fout.open(output, ios::app);
-    fout<<"*****\n";
+    //fout<<"*****\n";
     fout.close();
     //Rule Generation
     rulegen();
@@ -590,6 +592,9 @@ Function to print rules
 void print_rules(char *file)
 {
     fstream fout;
+    fout.open(file, ios::app);
+    fout<<"\n\nGENERATED RULES:\n";
+    fout.close();
     for(map< pair<set<int>,set<int> >,double >::iterator it=rules.begin();it!=rules.end();it++)
     {
         fout.open(file, ios::app);
