@@ -30,6 +30,7 @@ void Print_list();
 node *assign_links(int item, node *curr, node *prev = NULL);
 node *root = new node();
 stack < map <int, node *> > link_start;
+map <int, node *> link_start_orig;
 void reset(node *n);
 bool mark_path(int item, node *n);
 node* make_sub(node *n);
@@ -89,6 +90,7 @@ void generate_fptree()
 cout << "starting item: " << it->first << endl;
         assign_links(it->first, root);
     }
+    link_start_orig = link_start.top();
 }
 
 node *assign_links(int item, node *curr, node *prev)
@@ -124,7 +126,7 @@ bool mark_path(int item, node *n)
     if (n->item > item) return false;
     if (n->item == item)
     {
-        n->path = true;
+        n->path = false;
         return true;
     }
     bool val = false;
@@ -143,14 +145,18 @@ node* make_sub(node *n)
     node *next_link = n->link;
     while (next_link != NULL && next_link->path == false)
         next_link = next_link->link;
-    node *x = new node(n->item, n->item_count, next_link);
+    int counter = 0;
+    node *x = new node(n->item, 0, next_link);
     map <int, node *>::iterator it;
     for (it = n->children.begin(); it != n->children.end(); ++it)
-    {
         if (it->second->path)
             x->children.insert(pair<int, node*> (it->first, make_sub(it->second)));
-    }
-
+    for (it = x->children.begin(); it != x->children.end(); ++it)
+        counter += it->second->item_count;
+    if (counter == 0)
+        x->item_count = n->item_count;
+    else
+        x->item_count = counter;
     return x;
 }
 
