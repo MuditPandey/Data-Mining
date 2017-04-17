@@ -15,19 +15,24 @@ struct node
     int item_count;
     map<int,node*> children;
     node *link;
-    node(int val,int ct)
+    bool path;
+    node(int val = 0, int ct = 0, node *l = NULL)
     {
         item = val;
         item_count = ct;
-        link = NULL;
+        link = l;
+        path = false;
     }
 };
 
-void Print_tree(node *, int);
+void Print_tree(node *, int x = 0);
 void Print_list();
 node *assign_links(int item, node *curr, node *prev = NULL);
-node *root = new node(0,0);
-map <int, node *> link_start;
+node *root = new node();
+stack < map <int, node *> > link_start;
+void reset(node *n);
+bool mark_path(int item, node *n);
+node* make_sub(node *n);
 
 int main()
 {
@@ -37,13 +42,20 @@ int main()
     cout << "done\n";
     cout << "Transactions=" << transactions.size() << endl;
     generate_fptree();
+    Print_list();
+    //reset(root);
+    mark_path(5, root); //e = 5, d = 4
+    node *sub = make_sub(root);
     Print_tree(root, 0);
+    Print_tree(sub, 0);
     Print_list();
     return 0;
 }
 
 void generate_fptree()
 {
+    map <int, node *> first_links;
+    link_start.push(first_links);
     for(int i=0;i<transactions.size();i++)
     {
         node *next=root;
@@ -66,13 +78,13 @@ void generate_fptree()
                 (next->children).insert(pair<int,node*>(*it2,temp));
         //              cout << "made" << endl;
                 next = temp;
-                if (link_start.find(*it2) == link_start.end())
-                    link_start.insert(pair<int, node *> (*it2, temp));
+                if (link_start.top().find(*it2) == link_start.top().end())
+                    link_start.top().insert(pair<int, node *> (*it2, temp));
             }
         }
     }
-    map <int, node *>::iterator it = link_start.begin();
-    for (; it != link_start.end(); ++it)
+    map <int, node *>::iterator it = link_start.top().begin();
+    for (; it != link_start.top().end(); ++it)
     {
 cout << "starting item: " << it->first << endl;
         assign_links(it->first, root);
@@ -81,48 +93,87 @@ cout << "starting item: " << it->first << endl;
 
 node *assign_links(int item, node *curr, node *prev)
 {
-cout << "c1" << endl;
     if (curr->item > item) return prev;
-cout << "c2" << endl;
     if (curr->item == item)
     {
-cout << "c3" << endl;
-cout << "c4" << endl;
-        if (prev != NULL) prev->link = curr;
+        if (prev != NULL)
+            prev->link = curr;
         else
-            link_start.find(item)->second = curr;
-cout << "c5" << endl;
+            link_start.top().find(item)->second = curr;
         curr->link = NULL;
-cout << "c6" << endl;
         return curr;
     }
     map <int, node *>::iterator it = curr->children.begin();
-cout << "c7" << endl;
     for (; it != curr->children.end(); ++it)
         prev = assign_links(item, it->second, prev);
+    return prev;
+}
+
+void reset(node *n)
+{
+    n->path = false;
+    map <int, node *>::iterator it;
+    for (it = n->children.begin(); it != n->children.end(); ++it)
+        reset(it->second);
+}
+
+bool mark_path(int item, node *n)
+{
+    map <int, node *> new_links;
+    link_start.push(new_links);
+    if (n->item > item) return false;
+    if (n->item == item)
+    {
+        n->path = true;
+        return true;
+    }
+    bool val = false;
+    map <int, node *>::iterator it;
+    for (it = n->children.begin(); it != n->children.end(); ++it)
+        val = mark_path(item, it->second) || val;
+    n->path = val;
+    return val;
+}
+
+node* make_sub(node *n)
+{
+//cout << "(" << n->item << ", " << n->item_count << ", " << n->path << ")" << endl;
+    if (link_start.top().find(n->item) == link_start.top().end())
+        link_start.top().insert(pair<int, node*> (n->item, n));
+    node *next_link = n->link;
+    while (next_link != NULL && next_link->path == false)
+        next_link = next_link->link;
+    node *x = new node(n->item, n->item_count, next_link);
+    map <int, node *>::iterator it;
+    for (it = n->children.begin(); it != n->children.end(); ++it)
+    {
+        if (it->second->path)
+            x->children.insert(pair<int, node*> (it->first, make_sub(it->second)));
+    }
+
+    return x;
 }
 
 void Print_tree(node *n, int tabs)
 {
     for (int i = 0; i < tabs; ++i)
         cout << "     ";
-    cout << "(" << n->item << ", " << n->item_count << ")" << endl;
+    cout << "(" << n->item << ", " << n->item_count << ", " << n->path << ")" << endl;
     map<int,node*>::iterator it = n->children.begin();
     for (; it != n->children.end(); ++it)
         Print_tree(it->second, tabs + 1);
-
 }
 
 void Print_list()
 {
-    map <int, node *>::iterator it = link_start.begin();
-    for (; it != link_start.end(); ++it)
+    map <int, node *>::iterator it = link_start.top().begin();
+    for (; it != link_start.top().end(); ++it)
     {
         cout << "link for " << it->first << ": ";
         node *curr = it->second;
         while (curr != NULL)
         {
-            cout << "(" << curr->item << ", " << curr->item_count << ")" << endl;
+            cout << "(" << curr->item << ", " << curr->item_count << ") -> ";
             curr = curr->link;
         }
         cout << endl;
