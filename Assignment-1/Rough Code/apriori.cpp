@@ -187,7 +187,7 @@ map< set<int>,int> get_1_freq()
     map< set<int>,int> frequent_one;
      for(map<int,int>::iterator it=one_item_set.begin();it!=one_item_set.end();it++)
  {
-     if((float)it->second/435>=MIN_SUP)
+     if((float)it->second/N>=MIN_SUP)
         {
             set<int> add;
             add.insert(it->first);

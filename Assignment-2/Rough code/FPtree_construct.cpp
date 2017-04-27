@@ -211,8 +211,6 @@ void load_example()
     transactions.push_back(s10);
 }
 
-
-
 void load_training_data(char* file)
 {
     fstream f;
