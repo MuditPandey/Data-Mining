@@ -782,3 +782,18 @@ void load_example()
     transactions_fn.push_back(s9);
     transactions_fn.push_back(s10);
 }
+
+map< set<int>,int> get_1_freq()
+{
+    map< set<int>,int> frequent_one;
+     for(map<int,int>::iterator it=one_item_set.begin();it!=one_item_set.end();it++)
+ {
+     if((float)it->second/transactions.size()>=MIN_SUP)
+        {
+            set<int> add;
+            add.insert(it->first);
+            frequent_one.insert(pair< set<int>,int >(add,it->second));
+        }
+ }
+ return frequent_one;
+}
