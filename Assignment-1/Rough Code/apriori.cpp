@@ -2,7 +2,7 @@
 #include<bits/stdc++.h>
 
 #define N 435
-#define MIN_SUP 0.35
+#define MIN_SUP 0.4
 #define MIN_CONF 0.95
 #define CHILD 70
 #define CAPACITY 30
@@ -85,9 +85,10 @@ void print_set(set<int>, char *);
 
 int main()
 {
-    char input[] = "vote.arff", output[] = "output.txt";
+    char input[] = "vote.arff", output[] = "output_apriori.txt";
     fstream fout;
     fout.open(output, ios::out);
+    fout<<"MINIMIM SUPPORT VALUE="<<MIN_SUP<<" MINIMUM CONFIDENCE VALUE="<<MIN_CONF<<endl;
     fout<<"FREQUENT ITEM-SETS:"<<endl;
     fout.close();
     hash_meaning();
@@ -98,11 +99,14 @@ int main()
     cout << "done\n";
     cout << "Transactions=" << transactions.size() << endl;
     //Frequent Item-set Generation
+    cout<<"Generating frequent item sets.."<<endl;
     gen_freq_itemset();
-
+    cout<<"Done generating frequent item sets.."<<endl;
     for(int i = 0; i < freq_item.size(); i++)
     {
-        fout << i+1 << "th item-set:-\n";
+        fout.open(output, ios::app);
+        fout<<endl<<endl<< i+1 << "th item-set:-\n";
+        fout.close();
         for(map< set<int>,int >::iterator it = freq_item[i].begin(); it != freq_item[i].end(); it++)
         {
             fout.open(output, ios::app);
@@ -113,13 +117,14 @@ int main()
         }
     }
     fout.open(output, ios::app);
-    //fout<<"*****\n";
-    fout.close();
+    //fout<<"*****\n"
     //Rule Generation
+    cout<<"Generating rules.."<<endl;
     rulegen();
+    cout<<"Rules generated. Creating output file.."<<endl;
     print_rules(output);
-
-return 0;
+    cout<<"Completed!"<<endl;
+    return 0;
 }
 
 void gen_freq_itemset()
@@ -159,7 +164,8 @@ void gen_freq_itemset()
       map< set<int>,int> add;
       for(map< set<int>,int>::iterator it=Ck.begin();it!=Ck.end();it++)
      {
-         if((float)it->second/N>=MIN_SUP)
+         float epsilon=0.00001;
+         if((float)it->second/N>=MIN_SUP-epsilon)
          {
             add.insert(pair< set<int>,int >(it->first,it->second));
          }
@@ -186,14 +192,15 @@ map< set<int>,int> get_1_freq()
 {
     map< set<int>,int> frequent_one;
      for(map<int,int>::iterator it=one_item_set.begin();it!=one_item_set.end();it++)
- {
-     if((float)it->second/N>=MIN_SUP)
+    {
+     float epsilon=0.00001;
+     if((float)it->second/N>=MIN_SUP-epsilon)
         {
             set<int> add;
             add.insert(it->first);
             frequent_one.insert(pair< set<int>,int >(add,it->second));
         }
- }
+    }
  return frequent_one;
 }
 /*
@@ -508,7 +515,8 @@ void ap_genrules(set <int> fk,vector <set <int> > Hm, int inc)
             set <int> cause = setdiff(fk, Hm1[i]);
             double ofk=(double)freq_item[k-1].find(fk)->second;
             double conf = ofk/find_suppcount(cause);
-            if (conf >= MIN_CONF)
+            float epsilon=0.00001;
+            if (conf >= MIN_CONF-epsilon)
             {
                 //cout<<conf<<"\n";
                 pair< set <int>, set <int> > rule;
@@ -593,7 +601,7 @@ void print_rules(char *file)
 {
     fstream fout;
     fout.open(file, ios::app);
-    fout<<"\n\nGENERATED RULES:\n";
+    fout<<"\n\nGENERATED RULES:"<<rules.size()<<endl;
     fout.close();
     for(map< pair<set<int>,set<int> >,double >::iterator it=rules.begin();it!=rules.end();it++)
     {
